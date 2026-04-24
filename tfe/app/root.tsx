@@ -25,7 +25,8 @@ export default function Root() {
         <title>TFE</title>
       </head>
       <body>
-
+        <Outlet />
+        <Scripts />
       </body>
     </html>
   );
