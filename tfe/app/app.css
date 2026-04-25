@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  -webkit-tap-highlight-color: transparent; /* aide chatGPT pour retirer halo bleu chrome tel */ 
+}
+
+button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.33);
+    backdrop-filter: blur(10px);
+    z-index: 20;
+    transform: translateY(0);
+}
+
+.menu--hidden{
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.menu__btn{
+    border: none;
+    position: fixed;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+    box-shadow: none;
+}
+
+.menu__btn::before{
+    content: "☰";
+    font-size: 25px;
+    color: #393939;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu--open .menu__btn::before{
+    content: "✕";
+    color: #393939;
+    transform: rotate(90deg);
+}
+
+.menu__liste{
+    list-style: none;
+    margin: 0;
+    padding: 0 24px;
+    background-color: #d6d6d6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    transform: translateX(100%);
+    transition: transform 0.35s ease-out;
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    will-change: transform;
+}
+
+.menu--open .menu__liste{
+    transform: translateX(0);
+}
+
+.menu__liste a.active,
+.nav-vertical a.active{
+  color: #753443;
+  font-weight: 600;
+}
+
+.menu--li{
+    color: #393939;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    opacity: 1;
+    transform: none;
+    font-size: 25px;
+}
+
+.menu--li a{
+    color: #393939;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu--li a:hover{
+    color: #753443;
+}
+
+.nav--logo{
+    margin-left: 16px;
+    padding: 0;
+    margin-bottom: 0;
+    height: 45px;
+    color: #393939;
+}
+
+.nav--logo:hover{
+    color: #753443;
+}
