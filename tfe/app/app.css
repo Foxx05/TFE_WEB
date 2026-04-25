@@ -7,18 +7,23 @@
   -webkit-tap-highlight-color: transparent; /* aide chatGPT pour retirer halo bleu chrome tel */
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 button{
     background-color: transparent;
     cursor: pointer;
 }
 
 h1{
-    font-size: 43px;
+    font-size: clamp(2.6875rem, 0.0868rem + 11.8889vw, 9.375rem);
     font-family: 'Poller One', cursive;
 }
 
 h2{
-    font-size: 24px;
+    font-size: clamp(1.5rem, 0.941rem + 2.5556vw, 2.9375rem);
 }
 
 /*MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU */
@@ -131,9 +136,14 @@ h2{
 .text--header{
     margin-top: 100px;
     padding: 5px 10px;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
     background: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(10px);
     color: #fafafa;
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 1250px){
+
 }
