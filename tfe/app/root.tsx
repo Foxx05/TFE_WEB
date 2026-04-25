@@ -18,7 +18,7 @@ export default function Root() {
     <html lang="en">
       <head>
         <Links/>
-        <link rel="icon" type="image/svg+xml" href={import.meta.env.BASE_URL + "logo.svg"} />
+        <link rel="icon" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 

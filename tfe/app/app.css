@@ -10,6 +10,11 @@ button{
     cursor: pointer;
 }
 
+h1{
+    margin-top: 100px;
+    font-family: 'Poller One', cursive;
+}
+
 .menu{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -77,8 +82,8 @@ button{
 
 .menu__liste a.active,
 .nav-vertical a.active{
+  text-decoration: underline;
   color: #753443;
-  font-weight: 600;
 }
 
 .menu--li{
@@ -111,4 +116,4 @@ button{
 
 .nav--logo:hover{
     color: #753443;
-}
+} 
