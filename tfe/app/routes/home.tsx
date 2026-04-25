@@ -6,10 +6,14 @@ export default function Home() {
   return (
     <main>
       <Nav />
-      <div className="text--header">
-        <h1>Berrycam</h1>
-        <h2>The future of strawberry greenhouse culture</h2>
-      </div>
+      <header className="head">
+        <div className="head--img"></div>
+
+        <div className="head--text">
+          <h1>Berrycam</h1>
+          <h2>The future of strawberry greenhouse culture</h2>
+        </div>
+      </header>
     </main>
   );
 }

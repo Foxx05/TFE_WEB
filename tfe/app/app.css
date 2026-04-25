@@ -10,6 +10,7 @@
 html, body{
   margin: 0;
   padding: 0;
+  background-color: #d6d6d6;
 }
 
 button{
@@ -58,7 +59,7 @@ h2{
 .menu__btn::before{
     content: "☰";
     font-size: 25px;
-    color: #393939;
+    color: #d6d6d6;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -133,11 +134,26 @@ h2{
 
 /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
 
-.text--header{
-    margin-top: 100px;
-    padding: 5px 10px;
-    background: rgba(0, 0, 0, 0.35);
-    color: #fafafa;
+.head{
+    position: relative;
+}
+
+.head--text{
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+}
+
+.head--img{
+    background-image: url("/images/imgHeadProduct.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
 
 @media (min-width: 768px){
