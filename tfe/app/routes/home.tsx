@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <main>
       <Nav />
-      <h1>Berrycam</h1>
+      <div className="text--header">
+        <h1>Berrycam</h1>
+        <h2>The future of strawberry greenhouse culture</h2>
+      </div>
     </main>
   );
 }
