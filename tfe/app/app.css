@@ -212,6 +212,7 @@ p{
 .section--app{
     background-color: #262626;
     color: #fafafa;
+    position: relative;
 }
 
 .app--title{
@@ -231,6 +232,12 @@ p{
 
 .section--app__content{
     grid-column: 1/-1;
+}
+
+.img--app{
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
 }
 
 .gridcol{
