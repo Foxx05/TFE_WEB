@@ -45,6 +45,18 @@ export default function Home() {
             <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular parameter.</p>
           </div>
         </section>
+
+        <section className="section--full">
+          <div className="img--full1"></div>
+        </section>
+
+        <section className="section--full">
+          <div className="img--full2"></div>
+        </section>
+
+        <section className="section--full">
+          <div className="img--full3"></div>
+        </section>
       </main>
     </main>
   );

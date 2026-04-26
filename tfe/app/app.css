@@ -241,6 +241,30 @@ p{
     margin-top: 100px;
 }
 
+.section--full{
+    background-color: #262626;
+    padding-top: 5px;
+}
+
+.img--full1, .img--full2, .img--full3{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.img--full1{
+    background-image: url("/images/full1.png");
+}
+
+.img--full2{
+    background-image: url("/images/full2.png");
+}
+
+.img--full3{
+    background-image: url("/images/full3.png");
+}
+
 .gridcol{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
