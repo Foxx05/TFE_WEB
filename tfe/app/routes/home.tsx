@@ -47,10 +47,18 @@ export default function Home() {
         </section>
 
         <section className="section--full">
+          <div className="text--hover gridcol">
+            <p className="p--basic__modif">See the installation ? The cameras will take some picture of your culture. Those pictures will be later analyzed by a dedicated program.</p>
+            <p className="p--basic">The various sensors will be installed on those celling supports. The installation will be really easy and carried out by a super team.</p>
+          </div>
           <div className="img--full1"></div>
         </section>
 
         <section className="section--full">
+          <div className="text--hover gridcol">
+            <p className="p--basic">See those beautiful strawberries ? It could be yours, if you install our product in your greenhouse. Every data will help you manage your culture.</p>
+            <p className="p--basic__modif">You will save a lot of time - say goodbye to the travel to your greenhouse - and as you know, in the industry, time is money.</p>
+          </div>
           <div className="img--full2"></div>
         </section>
 

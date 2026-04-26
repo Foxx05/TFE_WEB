@@ -244,6 +244,8 @@ p{
 .section--full{
     background-color: #262626;
     padding-top: 5px;
+    position: relative;
+    color: #d6d6d6;
 }
 
 .img--full1, .img--full2, .img--full3{
@@ -263,6 +265,13 @@ p{
 
 .img--full3{
     background-image: url("/images/full3.png");
+}
+
+.text--hover{
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 150px;
 }
 
 .gridcol{
