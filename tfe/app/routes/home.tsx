@@ -33,6 +33,17 @@ export default function Home() {
         <section className="section--video">
           <VideoScroll />
         </section>
+
+        <section className="section--app gridcol">
+          <div className="app--title">
+            <p className="app--title__start">An app in</p>
+            <p className="app--title__finish">real time</p>
+          </div>
+          <div className="section--app__content">
+            <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best conditions.</p>
+            <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular parameter.</p>
+          </div>
+        </section>
       </main>
     </main>
   );

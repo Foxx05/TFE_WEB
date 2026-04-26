@@ -18,7 +18,7 @@ button{
     cursor: pointer;
 }
 
-h1{
+h1, .app--title__start, .app--title__finish{
     font-size: clamp(2.6875rem, 0.0868rem + 11.8889vw, 9.375rem);
     font-family: 'Poller One', cursive;
 }
@@ -209,11 +209,35 @@ p{
   height: 500vh;
 }
 
+.section--app{
+    background-color: #262626;
+    color: #fafafa;
+}
+
+.app--title{
+    grid-column: 1/-1;
+    margin-top: 20px;
+}
+
+.app--title__start{
+    grid-column: 1/-1;
+}
+
+.app--title__finish{
+    grid-column: 1/-1;
+    margin-left: 40px;
+    margin-top: 280px;
+}
+
+.section--app__content{
+    grid-column: 1/-1;
+}
+
 .gridcol{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 8px;
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 @media (min-width: 768px){
