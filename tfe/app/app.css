@@ -270,7 +270,7 @@ p{
 .text--hover{
     position: absolute;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     margin-top: 150px;
 }
 
