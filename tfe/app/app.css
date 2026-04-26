@@ -190,6 +190,25 @@ p{
     height: 70vh;
 }
 
+.section--video {
+  position: relative;
+  width: 100%;
+  height: 500vh;
+}
+
+.video-background {
+  position: sticky;
+  top: 62px;
+  width: 100%;
+  height: calc(100vh - 62px);
+  object-fit: cover;
+  display: block;
+}
+
+#container {
+  height: 500vh;
+}
+
 .gridcol{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

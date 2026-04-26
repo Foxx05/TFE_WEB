@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import Nav from "../components/nav";
+import VideoScroll from "~/components/videoScroll";
 
 export default function Home() {
   return (
@@ -27,6 +28,10 @@ export default function Home() {
           <p className="p--basic__modif">Our system allows the farmer to monitor the progress of the crops without having to move around.</p>
           <img className="img" src="/images/autoGH.png" alt="" />
           <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular parameter.</p>
+        </section>
+
+        <section className="section--video">
+          <VideoScroll />
         </section>
       </main>
     </main>
