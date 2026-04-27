@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import Nav from "../components/nav";
 import VideoScroll from "~/components/videoScroll";
+import Footer from "~/components/foot";
 
 export default function Home() {
   return (
@@ -65,6 +66,10 @@ export default function Home() {
         <section className="section--full">
           <div className="img--full3"></div>
         </section>
+
+        <footer>
+          <Footer />
+        </footer>
       </main>
     </main>
   );

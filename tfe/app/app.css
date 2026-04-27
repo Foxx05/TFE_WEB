@@ -35,16 +35,16 @@ h2{
     /* font-weight: 500; */
 }
 
-p{
-    line-height: 140%;
-}
-
 .p--basic, .p--basic__modif{
     grid-column: 1/-1;
 }
 
-.p--basic{
+a, p, .p--basic{
     font-size: clamp(1.125rem, 1.0764rem + 0.2222vw, 1.25rem);
+        line-height: 140%;
+}
+
+.p--basic{
     margin-bottom: clamp(1.5625rem, 1.4896rem + 0.3333vw, 1.75rem);
 }
 
@@ -164,6 +164,48 @@ p{
 
 .nav--logo:hover{
     color: #753443;
+}
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+.foot--list{
+    grid-column: 1/2;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.foot--list li{
+    display: block;
+}
+
+.foot--list a{
+    display: block;
+    color: #262626;
+    text-decoration: none;
+}
+
+.foot--li.active{
+    text-decoration: underline;
+    color: #753443;
+}
+
+.div--res{
+    margin-top: 36px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    grid-column: 3/4;
+}
+
+.p--foot{
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: clamp(3.3125rem, -0.0174rem + 15.2222vw, 11.875rem);
+    font-family: 'Poller One', cursive;
+    color: #262626;
+    margin-bottom: 0px;
 }
 
 /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
