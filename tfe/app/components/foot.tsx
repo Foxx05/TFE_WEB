@@ -17,6 +17,9 @@ export default function Footer() {
         <NavLink to="/contact" className="foot--li">
           Contact us
         </NavLink>
+        <NavLink to="/credit" className="foot--li">
+          Credits
+        </NavLink>
       </div>
       <div className="div--res">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="logo--res" viewBox="0 0 16 16">
