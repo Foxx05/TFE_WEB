@@ -1,8 +1,9 @@
 import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import Nav from "../components/nav";
-import VideoScroll from "~/components/videoScroll";
-import Footer from "~/components/foot";
+import VideoScroll from "../components/videoScroll";
+import Footer from "../components/foot";
+import { NavLink } from "react-router";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
           <VideoScroll />
         </section>
 
-        <section className="section--app gridcol">
+        <section className="section--full gridcol">
           <div className="app--title">
             <p className="app--title__start">An app in</p>
             <p className="app--title__finish">real time</p>
@@ -45,6 +46,9 @@ export default function Home() {
             <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best conditions.</p>
             <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular parameter.</p>
           </div>
+          <NavLink to="/app" className="btn--app">
+            Discover the app
+          </NavLink>
         </section>
 
         <section className="section--full">

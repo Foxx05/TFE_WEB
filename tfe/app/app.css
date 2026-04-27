@@ -39,9 +39,10 @@ h2{
     grid-column: 1/-1;
 }
 
-a, p, .p--basic{
+a, p, button, .p--basic{
     font-size: clamp(1.125rem, 1.0764rem + 0.2222vw, 1.25rem);
-        line-height: 140%;
+    line-height: 140%;
+    text-decoration: none;
 }
 
 .p--basic{
@@ -281,6 +282,25 @@ a, p, .p--basic{
     width: 100%;
     position: absolute;
     margin-top: 100px;
+}
+
+.btn--app{
+    justify-self: center;
+    grid-column: 1/-1;
+    background: transparent;
+    border: 1px solid #d6d6d6;
+    color: #d6d6d6;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: clamp(1.5625rem, 1.4896rem + 0.3333vw, 1.75rem);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn--app:hover{
+    background-color: #d6d6d6;
+    color: #262626;
+    border: 1px solid #262626;
 }
 
 .section--full{
