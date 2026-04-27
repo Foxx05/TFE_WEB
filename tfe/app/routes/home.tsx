@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <Nav />
       <header className="head">
-        <div className="head--img"></div>
+        <div className="head--img__product"></div>
 
         <div className="head--text">
           <h1>Berrycam</h1>

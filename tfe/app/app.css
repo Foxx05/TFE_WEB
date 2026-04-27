@@ -215,22 +215,38 @@ a, p, button, .p--basic{
     position: relative;
 }
 
-.head--text{
+.head--text, .head--text__app{
     position: absolute;
     bottom: 10vh;
     left: 0;
     right: 0;
     padding: 10px;
     background: rgba(0, 0, 0, 0.55);
-    color: #fff;
+    color: #fafafa;
 }
 
-.head--img{
-    background-image: url("/images/product/imgHeadProduct.png");
+.head--text__app{
+    background: transparent;
+    color: #262626;
+}
+
+.head--img__product, .head--img__app, .head--img__history{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
+}
+
+.head--img__product{
+    background-image: url("/images/product/imgHeadProduct.png");
+}
+
+.head--img__app{
+    background-image: url("/images/app/headerApp.png");
+}
+
+.head--img__history{
+    background-image: url("/images/history/headerHistory.png");
 }
 
 .section--video {
