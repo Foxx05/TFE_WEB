@@ -215,7 +215,7 @@ a, p, button, .p--basic{
     position: relative;
 }
 
-.head--text, .head--text__app{
+.head--text{
     position: absolute;
     bottom: 10vh;
     left: 0;
@@ -223,11 +223,6 @@ a, p, button, .p--basic{
     padding: 10px;
     background: rgba(0, 0, 0, 0.55);
     color: #fafafa;
-}
-
-.head--text__app{
-    background: transparent;
-    color: #262626;
 }
 
 .head--img__product, .head--img__app, .head--img__history{
