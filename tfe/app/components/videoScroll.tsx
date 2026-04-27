@@ -36,7 +36,7 @@ export default function VideoScroll() {
 
     return (
         <section ref={sectionRef} className="section--video">
-            <video ref={videoRef} src="/images/videoRender.mp4" playsInline preload="auto" muted className="video-background"/>
+            <video ref={videoRef} src="/images/product/videoRender.mp4" playsInline preload="auto" muted className="video-background"/>
         </section>
     );
 }

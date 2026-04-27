@@ -21,14 +21,14 @@ export default function Home() {
         <section className="gridcol">
           <p className="section--title">From basic greenhouse...</p>
           <p className="p--basic__modif">Everyone is familiar with the classic layout of a greenhouse. Generally, there are several rows of a certain type of fruit.</p>
-          <img className="img" src="/images/basicGH.png" alt="" />
+          <img className="img" src="/images/product/basicGH.png" alt="" />
           <p className="p--basic">The rows are separated by buffer zones, allowing the farmer to move around. The farmer often has to check on the condition of the plants, which takes time.</p>
         </section>
 
         <section className="gridcol">
           <p className="section--title">...to an automised one</p>
           <p className="p--basic__modif">Our system allows the farmer to monitor the progress of the crops without having to move around.</p>
-          <img className="img" src="/images/autoGH.png" alt="" />
+          <img className="img" src="/images/product/autoGH.png" alt="" />
           <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular parameter.</p>
         </section>
 
@@ -41,7 +41,7 @@ export default function Home() {
             <p className="app--title__start">An app in</p>
             <p className="app--title__finish">real time</p>
           </div>
-          <img className="img--app" src="/images/phone.png" alt="" />
+          <img className="img--app" src="/images/product/phone.png" alt="" />
           <div className="section--app__content">
             <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best conditions.</p>
             <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular parameter.</p>

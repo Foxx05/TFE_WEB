@@ -226,7 +226,7 @@ a, p, button, .p--basic{
 }
 
 .head--img{
-    background-image: url("/images/imgHeadProduct.png");
+    background-image: url("/images/product/imgHeadProduct.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -318,15 +318,15 @@ a, p, button, .p--basic{
 }
 
 .img--full1{
-    background-image: url("/images/full1.png");
+    background-image: url("/images/product/full1.png");
 }
 
 .img--full2{
-    background-image: url("/images/full2.png");
+    background-image: url("/images/product/full2.png");
 }
 
 .img--full3{
-    background-image: url("/images/full3.png");
+    background-image: url("/images/product/full3.png");
 }
 
 .text--hover{
