@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Nav />
       <header className="head">
-        <div className="head--img"></div>
+        <div className="head--img__app"></div>
 
         <div className="head--text">
           <h1>What does the app tell&nbsp;you ?</h1>
