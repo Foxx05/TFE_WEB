@@ -23,6 +23,10 @@ h1, .app--title__start, .app--title__finish{
     font-family: 'Poller One', cursive;
 }
 
+.title--page{
+    font-size: clamp(1.5rem, 0.941rem + 2.5556vw, 2.9375rem);
+}
+
 h2{
     font-size: clamp(1.5rem, 0.941rem + 2.5556vw, 2.9375rem);
 }
