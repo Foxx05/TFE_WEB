@@ -427,6 +427,38 @@ a, p, button, .p--basic{
 
 @media (min-width: 1250px){
 
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgba(0,0,0, 0.4);
+        position: fixed;
+        margin: 50px 100px;
+        padding: 0 50px;
+        border-radius: 25px;
+    }
+
+    .menu__btn{
+        display: none;
+    }
+
+    .menu__liste{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        transform: translateX(0);
+        background-color: transparent;
+        height: 62px;
+        width: fit-content;
+        gap: 100px;
+        position: relative;
+    }
+
+    .menu a{
+        color: #fafafa;
+    }
+
     .section--gh, .section--gh2{
         margin: 0 120px;
     }
