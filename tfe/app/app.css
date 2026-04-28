@@ -473,6 +473,11 @@ a, p, button, .p--basic{
         margin-top: 0;
     }
 
+    .video-background{
+        top: 0;
+        height: 100vh;
+    }
+
     .app--title{
         grid-column: 1/4;
     }
