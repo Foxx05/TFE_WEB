@@ -362,13 +362,42 @@ a, p, button, .p--basic{
         padding-left: 40px;
     }
 
-    .head--text__app, .head--text__history{
+    .head--text__app, .head--text__history, .head--text__product{
         margin-bottom: 180px;
+    }
+
+    .img{
+        grid-column: 2/5;
     }
 
     .img--app{
         top: 38%;
         width: clamp(250px, 50%, 500px);
+    }
+
+    .text--left{
+        width: fit-content;
+        max-width: 60%;
+        padding: 10px 20px;
+        display: inline-block;
+        border-radius: 0 25px 25px 0;
+    }
+
+    .text--right{
+        width: fit-content;
+        max-width: 60%;
+        padding: 10px 20px;
+        display: inline-block;
+        right: 0;
+        border-radius: 25px 0 0 25px;
+    }
+
+    .right{
+        grid-column: 1/-1;
+    }
+
+    .left{
+        grid-column: 1/-1;
     }
 
     .div--res{

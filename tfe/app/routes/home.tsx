@@ -12,7 +12,7 @@ export default function Home() {
       <header className="head">
         <div className="head--img__product"></div>
 
-        <div className="head--text">
+        <div className="head--text head--text__product">
           <h1>Berrycam</h1>
           <h2>The future of strawberry greenhouse&nbsp;culture</h2>
         </div>
@@ -52,17 +52,17 @@ export default function Home() {
       </section>
 
       <section className="section--full">
-        <div className="text--hover gridcol">
-          <p className="p--basic__modif">See the installation ? The cameras will take some picture of your culture. Those pictures will be later analyzed by a dedicated&nbsp;program.</p>
-          <p className="p--basic">The various sensors will be installed on those celling supports. The installation will be really easy and carried out by a super&nbsp;team.</p>
+        <div className="text--hover text--right gridcol">
+          <p className="p--basic__modif right">See the installation ? The cameras will take some picture of your culture. Those pictures will be later analyzed by a dedicated&nbsp;program.</p>
+          <p className="p--basic right">The various sensors will be installed on those celling supports. The installation will be really easy and carried out by a super&nbsp;team.</p>
         </div>
         <div className="img--full1"></div>
       </section>
 
       <section className="section--full">
-        <div className="text--hover gridcol">
-          <p className="p--basic">See those beautiful strawberries ? It could be yours, if you install our product in your greenhouse. Every data will help you manage your&nbsp;culture.</p>
-          <p className="p--basic__modif">You will save a lot of time - say goodbye to the travel to your greenhouse - and as you know, in the industry, time is&nbsp;money.</p>
+        <div className="text--hover text--left gridcol">
+          <p className="p--basic left">See those beautiful strawberries ? It could be yours, if you install our product in your greenhouse. Every data will help you manage your&nbsp;culture.</p>
+          <p className="p--basic__modif left">You will save a lot of time - say goodbye to the travel to your greenhouse - and as you know, in the industry, time is&nbsp;money.</p>
         </div>
         <div className="img--full2"></div>
       </section>
