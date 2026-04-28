@@ -10,7 +10,7 @@ export default function Home() {
       <header className="head">
         <div className="head--img__app"></div>
 
-        <div className="head--text">
+        <div className="head--text head--text__app">
           <h1 className="title--page">What does the app tell&nbsp;you ?</h1>
           <h2>Here is the answer... A lot of&nbsp;things !</h2>
         </div>

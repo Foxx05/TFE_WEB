@@ -229,7 +229,7 @@ a, p, button, .p--basic{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 100vh;
 }
 
 .head--img__product{
@@ -290,9 +290,11 @@ a, p, button, .p--basic{
 }
 
 .img--app{
-    width: 100%;
     position: absolute;
-    margin-top: 100px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: clamp(250px, 80%, 500px);
 }
 
 .btn--app{
@@ -356,7 +358,18 @@ a, p, button, .p--basic{
 
 @media (min-width: 768px){
 
+    .head--text{
+        padding-left: 40px;
+    }
 
+    .head--text__app, .head--text__history{
+        margin-bottom: 180px;
+    }
+
+    .img--app{
+        top: 38%;
+        width: clamp(250px, 50%, 500px);
+    }
 
     .div--res{
         grid-column: 5/-1;
@@ -373,7 +386,7 @@ a, p, button, .p--basic{
     .gridcol{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        column-gap: 8px;
+        column-gap: 16px;
         padding: 0 70px;
     }
 }
