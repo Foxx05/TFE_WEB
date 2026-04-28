@@ -18,18 +18,18 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="gridcol">
+      <section className="section--gh gridcol">
         <p className="section--title">From basic greenhouse...</p>
-        <p className="p--basic__modif">Everyone is familiar with the classic layout of a greenhouse. Generally, there are several rows of a certain type of&nbsp;fruit.</p>
+        <p className="p--basic__modif gridcol--35">Everyone is familiar with the classic layout of a greenhouse. Generally, there are several rows of a certain type of&nbsp;fruit.</p>
         <img className="img" src="/images/product/basicGH.png" alt="" />
-        <p className="p--basic">The rows are separated by buffer zones, allowing the farmer to move around. The farmer often has to check on the condition of the plants, which takes&nbsp;time.</p>
+        <p className="p--basic gridcol--35">The rows are separated by buffer zones, allowing the farmer to move around. The farmer often has to check on the condition of the plants, which takes&nbsp;time.</p>
       </section>
 
-      <section className="gridcol">
+      <section className="section--gh2 gridcol">
         <p className="section--title">...to an automised one</p>
-        <p className="p--basic__modif">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
+        <p className="p--basic__modif gridcol--35">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
         <img className="img" src="/images/product/autoGH.png" alt="" />
-        <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
+        <p className="p--basic gridcol--35">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
       </section>
 
       <section className="section--video">
@@ -44,15 +44,15 @@ export default function Home() {
         <img className="img--app" src="/images/product/phone.png" alt="" />
         <div className="section--app__content">
           <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best&nbsp;conditions.</p>
-          <p className="p--basic">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
+          <p className="p--basic">The sensors are connected and send their measurements in real time to the app. You can watch it anywhere, anytime.</p>
+          <NavLink to="/app" className="btn--app">
+            Discover the app
+          </NavLink>
         </div>
-        <NavLink to="/app" className="btn--app">
-          Discover the app
-        </NavLink>
       </section>
 
       <section className="section--full">
-        <div className="text--hover text--right gridcol">
+        <div className="text--hover text--right">
           <p className="p--basic__modif right">See the installation ? The cameras will take some picture of your culture. Those pictures will be later analyzed by a dedicated&nbsp;program.</p>
           <p className="p--basic right">The various sensors will be installed on those celling supports. The installation will be really easy and carried out by a super&nbsp;team.</p>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
       </section>
 
       <section className="section--full">
-        <div className="text--hover text--left gridcol">
+        <div className="text--hover text--left">
           <p className="p--basic left">See those beautiful strawberries ? It could be yours, if you install our product in your greenhouse. Every data will help you manage your&nbsp;culture.</p>
           <p className="p--basic__modif left">You will save a lot of time - say goodbye to the travel to your greenhouse - and as you know, in the industry, time is&nbsp;money.</p>
         </div>
