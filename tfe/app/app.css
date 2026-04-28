@@ -375,21 +375,20 @@ a, p, button, .p--basic{
         width: clamp(250px, 50%, 500px);
     }
 
-    .text--left{
+    .text--left, .text--right{
         width: fit-content;
         max-width: 60%;
         padding: 10px 20px;
         display: inline-block;
-        border-radius: 0 25px 25px 0;
     }
 
     .text--right{
-        width: fit-content;
-        max-width: 60%;
-        padding: 10px 20px;
-        display: inline-block;
-        right: 0;
         border-radius: 25px 0 0 25px;
+        right: 0;
+    }
+
+    .text--left{
+        border-radius: 0 25px 25px 0;
     }
 
     .right{
@@ -421,5 +420,13 @@ a, p, button, .p--basic{
 }
 
 @media (min-width: 1250px){
+
+    .text--hover{
+        margin-top: 15%;
+    }
+
+    .text--left, .text--right{
+        max-width: 40%;
+    }
 
 }
