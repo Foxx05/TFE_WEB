@@ -78,7 +78,7 @@ export default function Home() {
             </div>
 
             <div className="benefit">
-              <img className="img--warranty" src="/images/product/warranty.svg" alt="" />
+              <img src="/images/product/warranty.svg" alt="" />
               <p>5 years&nbsp;warranty</p>
             </div>
 

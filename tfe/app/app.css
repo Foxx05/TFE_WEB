@@ -21,6 +21,7 @@ button{
 h1, .app--title__start, .app--title__finish{
     font-size: clamp(2.6875rem, 0.0868rem + 11.8889vw, 9.375rem);
     font-family: 'Poller One', cursive;
+    margin-top: 0;
 }
 
 .title--page{
@@ -532,6 +533,10 @@ a, p, button, .p--basic{
     .menu__liste a.active,
     .nav-vertical a.active{
         color: #fafafa;
+    }
+
+    .head--img__product{
+        height: 120vh;
     }
 
     .section--gh, .section--gh2{
