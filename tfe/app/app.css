@@ -563,28 +563,47 @@ a, p, button, .p--basic{
     }
 
     .section--app{
-        align-items: center; 
-        justify-content: center;
+        min-height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+
+    .section--app.gridcol{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        align-items: center;
     }
 
     .app--title{
         grid-column: 1/4;
-        margin-top: 120px;
+        grid-row: 1;
+        margin-top: 0;
+        align-self: center;
     }
 
     .app--title__start, .app--title__finish{
         font-size: clamp(6.25rem, 1.3158rem + 6.3158vw, 7rem);
     }
 
+    .app--title__finish{
+        margin-top: 300px;
+        margin-bottom: 0;
+    }
+
     .img--app{
-        left: 400px;
-        top: clamp(25rem, 12.6645rem + 15.7895vw, 26.875rem);
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         width: clamp(26.125rem, 12.9671rem + 16.8421vw, 28.125rem);
     }
 
     .section--app__content{
-        grid-column: 4/-1; 
-        justify-content: center;
+        grid-column: 4/-1;
+        grid-row: 1;
+        margin-top: 0;
+        align-self: center;
     }
 
     .btn--app{
