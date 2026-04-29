@@ -36,7 +36,7 @@ export default function Home() {
         <VideoScroll />
       </section>
 
-      <section className="section--full gridcol">
+      <section className="section--full section--app gridcol">
         <div className="app--title">
           <p className="app--title__start">An app&nbsp;in</p>
           <p className="app--title__finish">real&nbsp;time</p>
