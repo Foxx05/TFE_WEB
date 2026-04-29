@@ -67,7 +67,32 @@ export default function Home() {
         <div className="img--full2"></div>
       </section>
 
-      <section className="section--full">
+      <section className="section--full section--benefits">
+        <div className="benefits--overlay">
+          <h2 className="benefits--title">Some benefits</h2>
+
+          <div className="benefits--grid">
+            <div className="benefit">
+              <img src="/images/product/install.svg" alt="" />
+              <p>Installation carried out by our&nbsp;team</p>
+            </div>
+
+            <div className="benefit">
+              <img className="img--warranty" src="/images/product/warranty.svg" alt="" />
+              <p>5 years&nbsp;warranty</p>
+            </div>
+
+            <div className="benefit">
+              <img src="/images/product/time.svg" alt="" />
+              <p>Time saver, forget the travel to your&nbsp;greenhouse</p>
+            </div>
+
+            <div className="benefit">
+              <img src="/images/product/help.svg" alt="" />
+              <p>We’re here to help anywhere,&nbsp;anytime</p>
+            </div>
+          </div>
+        </div>
         <div className="img--full3"></div>
       </section>
 
