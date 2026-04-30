@@ -60,7 +60,7 @@ export default function Home() {
         </NavLink>
       </div>
 
-      <div></div>
+      <div className="img--full4"></div>
 
       <footer>
         <Footer />
