@@ -488,6 +488,8 @@ a, p, button, .p--basic{
 	    transform: translate(-50%, -50%);
     }
 
+    /*GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID */
+    
     .gridcol{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -497,6 +499,8 @@ a, p, button, .p--basic{
 }
 
 @media (min-width: 1250px){
+
+    /*MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU */
 
     .menu{
         display: flex;
@@ -535,6 +539,8 @@ a, p, button, .p--basic{
         color: #fafafa;
     }
 
+    /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
+    
     .head--img__product, .head--img__app, .head--img__history{
         height: 120vh;
     }
@@ -630,6 +636,8 @@ a, p, button, .p--basic{
         margin-top: 70px;
     }
 
+    /*GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID */
+    
     .gridcol{
         display: grid;
         grid-template-rows: repeat(5, auto);
@@ -654,6 +662,8 @@ a, p, button, .p--basic{
         .p--foot{
             margin-top: 450px;
         }
+
+        /*GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID */
 
         .gridcol{
             display: grid;
