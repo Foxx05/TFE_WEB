@@ -17,7 +17,8 @@ export default function Home() {
       </header>
 
       <section className="gridcol">
-        
+        <img className="img--phone" src="/images/product/phone.png" alt="" />
+        <p className="p--intro">The app will provide you with accurate data on various parameters. These include, for example: <span>temperature</span>, <span>humidity</span> and <span>sunlight levels</span>. In addition to these parameters, <span>the app will notify you when the strawberries are close to being ready for harvest</span>. You can learn more about these technologies by scrolling down the page.</p>
       </section>
 
       <section className="gridcol">

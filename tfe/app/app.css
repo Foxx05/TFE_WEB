@@ -206,6 +206,11 @@ a, p, button, .p--basic{
     grid-column: 3/4;
 }
 
+span{
+    color: #753443;
+    font-weight: 600;
+}
+
 .p--foot{
     grid-column: 1/-1;
     text-align: center;
@@ -411,6 +416,18 @@ a, p, button, .p--basic{
     line-height: 120%;
 }
 
+
+.p--intro{
+    grid-column: 1/-1;
+}
+
+.img--phone{
+    grid-column: 1/-1;
+    width: 100%;
+    margin-top: clamp(2.3125rem, 0.8542rem + 6.6667vw, 6.0625rem);
+}
+
+
 .gridcol{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -540,7 +557,7 @@ a, p, button, .p--basic{
     }
 
     /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
-    
+
     .head--img__product, .head--img__app, .head--img__history{
         height: 120vh;
     }
