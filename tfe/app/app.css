@@ -223,7 +223,7 @@ a, p, button, .p--basic{
 
 .head--text{
     position: absolute;
-    bottom: 10vh;
+    bottom: 35vh;
     left: 0;
     right: 0;
     padding: 10px;
@@ -535,7 +535,7 @@ a, p, button, .p--basic{
         color: #fafafa;
     }
 
-    .head--img__product{
+    .head--img__product, .head--img__app, .head--img__history{
         height: 120vh;
     }
 
