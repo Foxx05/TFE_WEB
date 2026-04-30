@@ -69,7 +69,7 @@ export default function Home() {
 
       <section className="section--full section--benefits">
         <div className="benefits--overlay">
-          <h2 className="benefits--title">Some benefits</h2>
+          <h2 className="benefits--title">Some&nbsp;benefits</h2>
 
           <div className="benefits--grid">
             <div className="benefit">
