@@ -44,6 +44,10 @@ h2{
     margin-top: clamp(0.3125rem, 0.0694rem + 1.1111vw, 0.9375rem);
 }
 
+.section--page{
+    margin-top: clamp(2.3125rem, 0.8542rem + 6.6667vw, 6.0625rem);
+}
+
 .p--basic, .p--basic__modif, .p--basic__number, .div--left, .div--right{
     grid-column: 1/-1;
 }
@@ -725,6 +729,15 @@ span{
 
         .img--app{
             left: clamp(25rem, -77.7961rem + 131.5789vw, 40.625rem);
+        }
+
+        .section--intro{
+            padding: 0 320px;
+            gap: 40px;
+        }
+
+        .img--phone{
+            width: 100%;
         }
 
         .p--foot{
