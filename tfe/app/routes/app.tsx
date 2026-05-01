@@ -24,9 +24,9 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right">/01</p>
-        <img src="/" alt="" />
+        <img className="img--right" src="/" alt="" />
         <div className="div--right">
-          <p className="section--title__app">Watch your sensors’ data’s in real time</p>
+          <p className="section--title__app">Live sensor&nbsp;data</p>
           <p className="p--basic__modif">Here you can see every measurements made by the sensors. You don’t need to travel to your greenhouse, everything useful is shown&nbsp;here.</p>
           <p className="p--basic">To guarantee the best efficiency, it is recommended to stay in the green&nbsp;zone.</p>
         </div>
@@ -34,19 +34,19 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number left">/02</p>
-        <img src="/" alt="" />
+        <img className="img--left" src="/" alt="" />
         <div className="div--left">
-          <p className="section--title__app">Production evolution per&nbsp;month</p>
+          <p className="section--title__app">Monthly production</p>
           <p className="p--basic__modif">This graphics shows you how many strawberries were collected, per&nbsp;month.</p>
           <p className="p--basic">By using these data’s, you can see which month was more productive than another and clearly understand&nbsp;why.</p>
         </div>
       </section>
 
       <section className="section--page gridcol">
-        <p className="p--basic__number right">/03</p>
-        <img src="/" alt="" />
-        <div className="div--right">
-          <p className="section--title__app">Manage your greenhouse’s datas</p>
+        <p className="p--basic__number right2">/03</p>
+        <img className="img--right2" src="/" alt="" />
+        <div className="div--right2">
+          <p className="section--title__app">Greenhouse overview</p>
           <p className="p--basic__modif">Here you see the dimensions of your greenhouse and its orientation. It will help you to understand its&nbsp;efficiency.</p>
           <p className="p--basic">You have more than one greenhouse ? that is not a problem, you can add a new one in the app at any&nbsp;time.</p>
         </div>
