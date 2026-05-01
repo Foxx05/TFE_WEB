@@ -49,6 +49,11 @@ h2{
     font-size: clamp(2rem, 1.9028rem + 0.4444vw, 2.25rem);
 }
 
+.head--text__contact{
+    margin-top: clamp(7.5rem, 3.6111rem + 17.7778vw, 17.5rem);
+    padding-left: clamp(0.625rem, -0.1042rem + 3.3333vw, 2.5rem);
+}
+
 .section--page{
     margin-top: clamp(2.3125rem, 0.8542rem + 6.6667vw, 6.0625rem);
 }
@@ -524,7 +529,7 @@ span{
         padding-left: 40px;
     }
 
-    .head--text__app, .head--text__history, .head--text__product{
+    .head--text__app, .head--text__history, .head--text__product, .head--text__contact{
         margin-bottom: 180px;
     }
 
