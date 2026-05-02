@@ -332,19 +332,18 @@ span{
 
 .btn--app, .btn--contact{
     display: block;
-    margin: clamp(1.5625rem, 1.4896rem + 0.3333vw, 1.75rem) 50px;
     text-align: center;
     background: transparent;
     border: 1px solid #d6d6d6;
     color: #d6d6d6;
-    padding: 10px 20px;
+    padding: 8px 40px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .btn--contact{
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .btn--app:hover, .btn--contact:hover{
@@ -524,20 +523,10 @@ span{
     grid-column: 1/-1;
 }
 
-.contact--infos p{
-    font-size: clamp(0.85rem, 0.8rem + 0.25vw, 1rem);
-    margin: 0.4rem 0;
-}
-
 .contact--infos{
     display: grid;
     gap: 2rem;
     margin: 2.5rem 0;
-}
-
-.contact--infos h2{
-    font-size: clamp(1.2rem, 1rem + 0.8vw, 1.7rem);
-    margin-bottom: 1rem;
 }
 
 .contact--form{

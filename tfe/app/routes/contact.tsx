@@ -15,36 +15,36 @@ export default function Home() {
         <section className="section--contact gridcol">
             <div className="contact--infos">
             <div>
-                <h2>General inquiries</h2>
-                <p>berrycam.questions@gmail.com</p>
-                <p>+32 492 50 37 14</p>
+                <h2 className="benefits--title">General inquiries</h2>
+                <p className="p--basic">berrycam.questions@gmail.com</p>
+                <p className="p--basic">+32 492 50 37 14</p>
             </div>
 
             <div>
-                <h2>Collaborations</h2>
-                <p>berrycam.collab@gmail.com</p>
-                <p>+32 492 52 84 43</p>
+                <h2 className="benefits--title">Collaborations</h2>
+                <p className="p--basic">berrycam.collab@gmail.com</p>
+                <p className="p--basic">+32 492 52 84 43</p>
             </div>
             </div>
 
             <form className="contact--form">
                 <label>
-                    <p className="p--basic__modif">Name</p>
+                    <p className="p--basic">Name</p>
                     <input type="text" name="name" />
                 </label>
 
                 <label>
-                    <p className="p--basic__modif">Surname</p>
+                    <p className="p--basic">Surname</p>
                     <input type="text" name="surname" />
                 </label>
 
                 <label>
-                    <p className="p--basic__modif">eMail Adress</p>
+                    <p className="p--basic">eMail Adress</p>
                     <input type="email" name="email" />
                 </label>
 
                 <label>
-                    <p className="p--basic__modif">Message</p>
+                    <p className="p--basic">Message</p>
                     <textarea name="message"></textarea>
                 </label>
 
