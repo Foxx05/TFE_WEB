@@ -332,11 +332,12 @@ span{
 
 .btn--app, .btn--contact{
     display: block;
+    margin: clamp(1.5625rem, 1.4896rem + 0.3333vw, 1.75rem) 50px;
     text-align: center;
     background: transparent;
     border: 1px solid #d6d6d6;
     color: #d6d6d6;
-    padding: 8px 40px;
+    padding: 10px 50px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
@@ -344,11 +345,14 @@ span{
 
 .btn--contact{
     margin-bottom: 10px;
+    background-color: #d6d6d6;
+    color: #262626;
+    border: 1px solid #262626;
 }
 
 .btn--app:hover, .btn--contact:hover{
-    background-color: #d6d6d6;
-    color: #262626;
+    background-color: #262626;
+    color: #fafafa;
     border: 1px solid #262626;
 }
 
