@@ -7,65 +7,66 @@ export default function Home() {
   return (
     <main>
       <Nav />
-      <header className="head head--text__contact">
+        <header className="head--text__contact">
           <h1>Contact us</h1>
           <h2>Get in touch with us for any enquiries and questions</h2>
-      </header>
+        </header>
 
-      <div className="contact--infos">
-          <div>
-            <h2>General inquiries</h2>
-            <p>berrycam.questions@gmail.com</p>
-            <p>+32 492 50 37 14</p>
-          </div>
+        <section className="section--contact gridcol">
+            <div className="contact--infos">
+            <div>
+                <h2>General inquiries</h2>
+                <p>berrycam.questions@gmail.com</p>
+                <p>+32 492 50 37 14</p>
+            </div>
 
-          <div>
-            <h2>Collaborations</h2>
-            <p>berrycam.collab@gmail.com</p>
-            <p>+32 492 52 84 43</p>
-          </div>
-        </div>
+            <div>
+                <h2>Collaborations</h2>
+                <p>berrycam.collab@gmail.com</p>
+                <p>+32 492 52 84 43</p>
+            </div>
+            </div>
 
-        <form className="contact--form">
-          <label>
-            Name
-            <input type="text" name="name" />
-          </label>
+            <form className="contact--form">
+                <label>
+                    <p className="p--basic__modif">Name</p>
+                    <input type="text" name="name" />
+                </label>
 
-          <label>
-            Surname
-            <input type="text" name="surname" />
-          </label>
+                <label>
+                    <p className="p--basic__modif">Surname</p>
+                    <input type="text" name="surname" />
+                </label>
 
-          <label>
-            eMail Adress
-            <input type="email" name="email" />
-          </label>
+                <label>
+                    <p className="p--basic__modif">eMail Adress</p>
+                    <input type="email" name="email" />
+                </label>
 
-          <label>
-            Message
-            <textarea name="message"></textarea>
-          </label>
+                <label>
+                    <p className="p--basic__modif">Message</p>
+                    <textarea name="message"></textarea>
+                </label>
 
-          <div className="contact--checks">
-            <label>
-              <input type="checkbox" />
-              Send me a copy of my message
-            </label>
+                <div className="contact--checks">
+                    <label>
+                    <input type="checkbox" />
+                    <p className="p--basic__contact">Send me a copy of my message</p>
+                    </label>
 
-            <label>
-              <input type="checkbox" />
-              Subscribe to the newsletter
-            </label>
-          </div>
+                    <label>
+                    <input type="checkbox" />
+                    <p className="p--basic__contact">Subscribe to the newsletter</p>
+                    </label>
+                </div>
 
-          <button className="btn--contact" type="submit">
-            Send it →
-          </button>
-        </form>
+                <button className="btn--contact" type="submit">Send it</button>
+            </form>
 
-        <img className="contact--img" src="/images/contact/strawberries.png" alt="Strawberries"/>
+            {/* <img className="contact--img" src="/images/contact/strawberries.png" alt="Strawberries"/> */}
         
+      </section>
+
       <footer>
         <Footer />
       </footer>
