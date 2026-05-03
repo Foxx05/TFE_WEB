@@ -394,40 +394,6 @@ background-color: #262626;
     overflow: hidden;
 }
 
-/* .img--full4::after{
-    content: "";
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: -100%;
-    width: 25%;
-    height: 100%;
-    animation: scanMove 6s linear infinite;
-    pointer-events: none;
-
-    background:
-        haut
-        linear-gradient(#d6d6d6 0 0) top / 100% 10% no-repeat,
-
-        bas
-        linear-gradient(#d6d6d6 0 0) bottom / 100% 10% no-repeat,
-
-        gauche
-        linear-gradient(#d6d6d6 0 0) left center / 10% 100% no-repeat,
-
-        droite
-        linear-gradient(#d6d6d6 0 0) right center / 10% 100% no-repeat;
-} */
-
-/* @keyframes scanMove {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left: 100%;
-    }
-} */
-
 .text--hover{
     position: absolute;
     z-index: 10;
