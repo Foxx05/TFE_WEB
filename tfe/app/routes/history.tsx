@@ -31,7 +31,7 @@ export default function Home() {
         <p className="p--basic__number right2">/02</p>
         <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.png`} alt="" />
         <div className="div--right2">
-          <p className="section--title__app">Greenhouse overview</p>
+          <p className="section--title__app">A solution to a&nbsp;problem</p>
           <p className="p--basic__modif">I wanted to find a solution to an existing problem. I think it’s a good way to start a final year&nbsp;project.</p>
           <p className="p--basic">The idea came during a brainstorming with my father and a friend of his. I always had interest in&nbsp;farming.</p>
         </div>
