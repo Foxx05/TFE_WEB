@@ -281,6 +281,7 @@ span{
 .scroll--video {
   height: 400vh;
   position: relative;
+background-color: #262626;
 }
 
 .scroll--video__canvas {
