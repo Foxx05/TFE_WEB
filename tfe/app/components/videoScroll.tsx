@@ -71,7 +71,7 @@ export default function VideoScroll() {
             frame: frameCount - 1,
             ease: "none",
             scrollTrigger: {
-              trigger: ".scroll-video",
+              trigger: ".scroll--video",
               start: "top top",
               end: "bottom bottom",
               scrub: true,
