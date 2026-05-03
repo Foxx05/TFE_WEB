@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="gridcol">
       <div className="foot--list">
-        <NavLink to="/" className="foot--li">
+        <NavLink to="/projets/tfe_web/" end className="foot--li">
           Our product
         </NavLink>
         <NavLink to="/projets/tfe_web/app" className="foot--li">

@@ -39,7 +39,7 @@ export default function nav() {
       <button className="menu__btn"></button>
       <div className="blur-overlay"></div>
       <ul className="menu__liste">
-        <NavLink to="/projets/tfe_web/" className="menu--li">
+        <NavLink to="/projets/tfe_web/" end className="menu--li">
           Our product
         </NavLink>
         <NavLink to="/projets/tfe_web/app" className="menu--li">
