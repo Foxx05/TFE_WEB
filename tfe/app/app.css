@@ -278,11 +278,17 @@ span{
     background-image: url("/images/history/headerHistory.png");
 }
 
-.section--video{
+.scroll--video {
+  height: 400vh;
   position: relative;
+}
+
+.scroll--video__canvas {
+  position: sticky;
+  top: 0;
   width: 100%;
-  height: 500vh;
-  background-color: #262626;
+  height: 100vh;
+  display: block;
 }
 
 .video-background{
