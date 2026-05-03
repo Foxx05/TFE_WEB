@@ -21,7 +21,7 @@ export default function Home() {
         <p className="p--basic__number right">/01</p>
         <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.png`} alt="" />
         <div className="div--right">
-          <p className="section--title__app">Live sensor&nbsp;data</p>
+          <p className="section--title__app">A final year&nbsp;project</p>
           <p className="p--basic__modif">It all started with an idea for my final year&nbsp;project.</p>
           <p className="p--basic">I wanted to address a current issue. As an anecdote, there is a strawberry farmer near my home who does everything manually. It is a large-scale operation that requires a lot of time. So I started thinking about a solution that would free up some of the farmer's&nbsp;time.</p>
         </div>
