@@ -1,5 +1,6 @@
 import { Links, Outlet, Scripts } from "react-router";
 import appStyles from "./app.css?url";
+import ScrollToTop from "./components/scrollToTop";
 
 export const links = () => [
   { rel: "stylesheet", href: appStyles },
@@ -25,6 +26,7 @@ export default function Root() {
         <title>TFE</title>
       </head>
       <body>
+        <ScrollToTop />
         <Outlet />
         <Scripts />
       </body>
