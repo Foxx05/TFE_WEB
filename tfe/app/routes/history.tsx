@@ -38,8 +38,8 @@ export default function Home() {
       </section>
 
       <section className="section--page gridcol">
-        <p className="p--basic__number left">/03</p>
-        <div className="div--left">
+        <div className="img--right2">
+          <p className="p--basic__number left">/03</p>
           <p className="section--title__app">A first website design</p>
           <p className="p--basic__modif">The first thing I did in this project was thinking about the website’s&nbsp;design.</p>
           <p className="p--basic">I started by making some wireframes on Figma. I did a lot of variation between every&nbsp;test.</p>
