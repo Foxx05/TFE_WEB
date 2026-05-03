@@ -251,7 +251,7 @@ span{
 
 .head--text{
     position: absolute;
-    bottom: 35vh;
+    bottom: 25dvh;
     left: 0;
     right: 0;
     padding: 10px;
