@@ -19,7 +19,7 @@ export default function VideoScroll() {
     const video = { frame: 0 };
 
     const currentFrame = (index: number) =>
-      `/frames/frame_${String(index + 1).padStart(4, "0")}.webp`;
+      `${import.meta.env.BASE_URL}/frames/frame_${String(index + 1).padStart(4, "0")}.webp`;
 
     function resizeCanvas() {
       canvas.width = window.innerWidth;

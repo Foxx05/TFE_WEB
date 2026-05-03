@@ -21,14 +21,14 @@ export default function Home() {
       <section className="section--gh gridcol">
         <p className="section--title">From basic greenhouse...</p>
         <p className="p--basic__modif gridcol--35">Everyone is familiar with the classic layout of a greenhouse. Generally, there are several rows of a certain type of&nbsp;fruit.</p>
-        <img className="img" src="/images/product/basicGH.png" alt="" />
+        <img className="img" src={`${import.meta.env.BASE_URL}images/product/basicGH.png`} alt="" />
         <p className="p--basic gridcol--35">The rows are separated by buffer zones, allowing the farmer to move around. The farmer often has to check on the condition of the plants, which takes&nbsp;time.</p>
       </section>
 
       <section className="section--gh2 gridcol">
         <p className="section--title">...to an automised one</p>
         <p className="p--basic__modif gridcol--35">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
-        <img className="img" src="/images/product/autoGH.png" alt="" />
+        <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.png`} alt="" />
         <p className="p--basic gridcol--35">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
       </section>
 
@@ -41,7 +41,7 @@ export default function Home() {
           <p className="app--title__start">An app&nbsp;in</p>
           <p className="app--title__finish">real&nbsp;time</p>
         </div>
-        <img className="img--app" src="/images/product/phone.png" alt="" />
+        <img className="img--app" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} alt="" />
         <div className="section--app__content">
           <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best&nbsp;conditions.</p>
           <p className="p--basic">The sensors are connected and send their measurements in real time to the app. You can watch it anywhere, anytime.</p>
@@ -73,22 +73,22 @@ export default function Home() {
 
           <div className="benefits--grid">
             <div className="benefit">
-              <img src="/images/product/install.svg" alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/install.svg`} alt="" />
               <p>Installation carried out by our&nbsp;team</p>
             </div>
 
             <div className="benefit">
-              <img src="/images/product/warranty.svg" alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/warranty.svg`} alt="" />
               <p>5 years&nbsp;warranty</p>
             </div>
 
             <div className="benefit">
-              <img src="/images/product/time.svg" alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/time.svg`} alt="" />
               <p>Time saver, forget the travel to your&nbsp;greenhouse</p>
             </div>
 
             <div className="benefit">
-              <img src="/images/product/help.svg" alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/help.svg`} alt="" />
               <p>We’re here to help anywhere,&nbsp;anytime</p>
             </div>
           </div>

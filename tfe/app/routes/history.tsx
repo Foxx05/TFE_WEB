@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right">/01</p>
-        <img className="img--right" src="/images/app/app1.png" alt="" />
+        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.png`} alt="" />
         <div className="div--right">
           <p className="section--title__app">Live sensor&nbsp;data</p>
           <p className="p--basic__modif">It all started with an idea for my final year&nbsp;project.</p>
@@ -29,7 +29,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right2">/02</p>
-        <img className="img--right2" src="/images/app/app3.png" alt="" />
+        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.png`} alt="" />
         <div className="div--right2">
           <p className="section--title__app">Greenhouse overview</p>
           <p className="p--basic__modif">I wanted to find a solution to an existing problem. I think it’s a good way to start a final year&nbsp;project.</p>
@@ -48,7 +48,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right">/04</p>
-        <img className="img--right" src="/images/app/app1.png" alt="" />
+        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.png`} alt="" />
         <div className="div--right">
           <p className="section--title__app">The thinking behind the working&nbsp;model</p>
           <p className="p--basic__modif">For this project, I wanted to use an Arduino or a Raspberry Pi. I thought my project would be more valuable if something actually worked alongside&nbsp;it.</p>

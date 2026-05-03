@@ -63,7 +63,7 @@ export default function Home() {
                 <button className="btn--contact" type="submit">Send it</button>
             </form>
 
-            {/* <img className="contact--img" src="/images/contact/strawberries.png" alt="Strawberries"/> */}
+            {/* <img className="contact--img" src="{`${import.meta.env.BASE_URL}/images/contact/strawberries.png" alt="Strawberries"/> */}
         
       </section>
 

@@ -8,16 +8,16 @@ export default function Footer() {
         <NavLink to="/" className="foot--li">
           Our product
         </NavLink>
-        <NavLink to="/app" className="foot--li">
+        <NavLink to="/projets/tfe_web/app" className="foot--li">
           Our app
         </NavLink>
-        <NavLink to="/history" className="foot--li">
+        <NavLink to="/projets/tfe_web/history" className="foot--li">
           Our history
         </NavLink>
-        <NavLink to="/contact" className="foot--li">
+        <NavLink to="/projets/tfe_web/contact" className="foot--li">
           Contact us
         </NavLink>
-        <NavLink to="/credit" className="foot--li">
+        <NavLink to="/projets/tfe_web/credit" className="foot--li">
           Credits
         </NavLink>
       </div>

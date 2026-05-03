@@ -18,13 +18,13 @@ export default function Home() {
       </header>
 
       <section className="section--intro">
-        <img className="img--phone" src="/images/product/phone.png" alt="" />
+        <img className="img--phone" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} alt="" />
         <p className="p--intro">The app will provide you with accurate data on various parameters. These include, for example: <span>temperature</span>, <span>humidity</span> and <span>sunlight levels</span>. In addition to these parameters, <span>the app will notify you when the strawberries are close to being ready for harvest</span>. You can learn more about these technologies by scrolling down the&nbsp;page.</p>
       </section>
 
       <section className="section--page gridcol">
         <p className="p--basic__number right">/01</p>
-        <img className="img--right" src="/images/app/app1.png" alt="" />
+        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.png`} alt="" />
         <div className="div--right">
           <p className="section--title__app">Live sensor&nbsp;data</p>
           <p className="p--basic__modif">Here you can see every measurements made by the sensors. You don’t need to travel to your greenhouse, everything useful is shown&nbsp;here.</p>
@@ -34,7 +34,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number left">/02</p>
-        <img className="img--left" src="/images/app/app2.png" alt="" />
+        <img className="img--left" src={`${import.meta.env.BASE_URL}/images/app/app2.png`} alt="" />
         <div className="div--left">
           <p className="section--title__app">Monthly production</p>
           <p className="p--basic__modif">This graphics shows you how many strawberries were collected, per&nbsp;month.</p>
@@ -44,7 +44,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right2">/03</p>
-        <img className="img--right2" src="/images/app/app3.png" alt="" />
+        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.png`} alt="" />
         <div className="div--right2">
           <p className="section--title__app">Greenhouse overview</p>
           <p className="p--basic__modif">Here you see the dimensions of your greenhouse and its orientation. It will help you to understand its&nbsp;efficiency.</p>
