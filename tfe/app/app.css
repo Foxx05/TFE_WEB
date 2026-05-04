@@ -90,6 +90,29 @@ a, p, button, .p--basic, .p--basic__contact{
     margin-bottom: clamp(1.5625rem, 1.4896rem + 0.3333vw, 1.75rem);
 }
 
+.popup--success {
+  position: fixed;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: #262626;
+  color: #fafafa;
+  border: 1px solid #753443;
+  border-radius: 25px;
+  padding: 14px 24px;
+  text-align: center;
+}
+
+.popup--success p {
+  margin: 0;
+}
+
+.form--error {
+  color: #753443;
+  margin: 0;
+}
+
 /*MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU MENU */
 
 .menu{

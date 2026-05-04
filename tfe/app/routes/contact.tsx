@@ -3,7 +3,35 @@ import { useEffect, useState } from "react";
 import Nav from "../components/nav";
 import Footer from "../components/foot";
 
-export default function Home() {
+export default function Contact() {
+  const [popup, setPopup] = useState(false);
+  const [error, setError] = useState(false);
+
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const name = String(formData.get("name") || "").trim();
+    const surname = String(formData.get("surname") || "").trim();
+    const email = String(formData.get("email") || "").trim();
+
+    if (!name || !surname || !email) {
+      setError(true);
+      setPopup(false);
+      return;
+    }
+
+    setError(false);
+    setPopup(true);
+    form.reset();
+
+    setTimeout(() => {
+      setPopup(false);
+    }, 3000);
+  }
+
   return (
     <main>
       <Nav />
@@ -27,19 +55,19 @@ export default function Home() {
             </div>
             </div>
 
-            <form className="contact--form">
+            <form className="contact--form" onSubmit={handleSubmit}>
                 <label>
-                    <p className="p--basic">Name</p>
+                    <p className="p--basic">Name <span>*</span></p>
                     <input type="text" name="name" />
                 </label>
 
                 <label>
-                    <p className="p--basic">Surname</p>
+                    <p className="p--basic">Surname <span>*</span></p>
                     <input type="text" name="surname" />
                 </label>
 
                 <label>
-                    <p className="p--basic">eMail Adress</p>
+                    <p className="p--basic">eMail Adress <span>*</span></p>
                     <input type="email" name="email" />
                 </label>
 
@@ -47,6 +75,12 @@ export default function Home() {
                     <p className="p--basic">Message</p>
                     <textarea name="message"></textarea>
                 </label>
+
+                {error && (
+                    <p className="form--error">
+                    Please fill in name, surname and email.
+                    </p>
+                )}
 
                 <div className="contact--checks">
                     <label>
@@ -62,6 +96,12 @@ export default function Home() {
 
                 <button className="btn--contact" type="submit">Send it</button>
             </form>
+
+            {popup && (
+                <div className="popup--success">
+                    <p>Your message has been sent successfully.</p>
+                </div>
+            )}
 
             {/* <img className="contact--img" src="{`${import.meta.env.BASE_URL}/images/contact/strawberries.png" alt="Strawberries"/> */}
         
