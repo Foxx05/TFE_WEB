@@ -274,7 +274,8 @@ span{
 
 .head--text{
     position: absolute;
-    bottom: 25dvh;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
     right: 0;
     padding: 10px;
@@ -286,7 +287,7 @@ span{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .head--img__product{
