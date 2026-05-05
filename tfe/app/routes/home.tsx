@@ -21,14 +21,14 @@ export default function Home() {
       <section className="section--gh gridcol">
         <p className="section--title">From basic greenhouse...</p>
         <p className="p--basic__modif gridcol--35">Everyone is familiar with the classic layout of a greenhouse. Generally, there are several rows of a certain type of&nbsp;fruit.</p>
-        <img className="img" src={`${import.meta.env.BASE_URL}images/product/basicGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/basicGH@2x.webp 2x`} alt="" />
+        <img className="img" src={`${import.meta.env.BASE_URL}images/product/basicGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/basicGH@2x.webp 2x`} alt="Image showing a traditional greenhouse: a plastic roof with arches, rows of strawberry plants on the ground spaced one meter apart" />
         <p className="p--basic gridcol--35">The rows are separated by buffer zones, allowing the farmer to move around. The farmer often has to check on the condition of the plants, which takes&nbsp;time.</p>
       </section>
 
       <section className="section--gh2 gridcol">
         <p className="section--title">...to an automised one</p>
         <p className="p--basic__modif gridcol--35">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
-        <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/autoGH@2x.webp 2x`} alt="" />
+        <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/autoGH@2x.webp 2x`} alt="Image showing a 3D view of the product. The strawberry plants are placed in stacked trays. The strawberries are filmed by cameras (positioned perpendicular to the strawberry beds)" />
         <p className="p--basic gridcol--35">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
       </section>
 
@@ -73,22 +73,22 @@ export default function Home() {
 
           <div className="benefits--grid">
             <div className="benefit">
-              <img src={`${import.meta.env.BASE_URL}images/product/install.svg`} alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/install.svg`} alt="Wrench icon (installation symbol)" />
               <p>Installation carried out by our&nbsp;team</p>
             </div>
 
             <div className="benefit">
-              <img src={`${import.meta.env.BASE_URL}images/product/warranty.svg`} alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/warranty.svg`} alt="Lotus icon (a symbol of serenity)" />
               <p>5 years&nbsp;warranty</p>
             </div>
 
             <div className="benefit">
-              <img src={`${import.meta.env.BASE_URL}images/product/time.svg`} alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/time.svg`} alt="Clock icon (symbol of time saved)" />
               <p>Time saver, forget the travel to your&nbsp;greenhouse</p>
             </div>
 
             <div className="benefit">
-              <img src={`${import.meta.env.BASE_URL}images/product/help.svg`} alt="" />
+              <img src={`${import.meta.env.BASE_URL}images/product/help.svg`} alt="Question mark icon (symbol of a team that listens)" />
               <p>We’re here to help anywhere,&nbsp;anytime</p>
             </div>
           </div>
