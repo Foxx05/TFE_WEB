@@ -24,7 +24,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right">/01</p>
-        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.png`} alt="" />
+        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.webp`} alt="" />
         <div className="div--right">
           <p className="section--title__app">Live sensor&nbsp;data</p>
           <p className="p--basic__modif">Here you can see every measurements made by the sensors. You don’t need to travel to your greenhouse, everything useful is shown&nbsp;here.</p>
@@ -34,7 +34,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number left">/02</p>
-        <img className="img--left" src={`${import.meta.env.BASE_URL}/images/app/app2.png`} alt="" />
+        <img className="img--left" src={`${import.meta.env.BASE_URL}/images/app/app2.webp`} alt="" />
         <div className="div--left">
           <p className="section--title__app">Monthly production</p>
           <p className="p--basic__modif">This graphics shows you how many strawberries were collected, per&nbsp;month.</p>
@@ -44,7 +44,7 @@ export default function Home() {
 
       <section className="section--page gridcol">
         <p className="p--basic__number right2">/03</p>
-        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.png`} alt="" />
+        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.webp`} alt="" />
         <div className="div--right2">
           <p className="section--title__app">Greenhouse overview</p>
           <p className="p--basic__modif">Here you see the dimensions of your greenhouse and its orientation. It will help you to understand its&nbsp;efficiency.</p>
