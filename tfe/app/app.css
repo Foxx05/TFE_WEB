@@ -291,15 +291,15 @@ span{
 }
 
 .head--img__product{
-    background-image: url("/images/product/imgHeadProduct.png");
+    background-image: url("/images/product/imgHeadProduct.webp");
 }
 
 .head--img__app{
-    background-image: url("/images/app/headerApp.png");
+    background-image: url("/images/app/headerApp.webp");
 }
 
 .head--img__history{
-    background-image: url("/images/history/headerHistory.png");
+    background-image: url("/images/history/headerHistory.webp");
 }
 
 .scroll--video {
@@ -400,19 +400,19 @@ background-color: #262626;
 }
 
 .img--full1{
-    background-image: url("/images/product/full1.png");
+    background-image: url("/images/product/full1.webp");
 }
 
 .img--full2{
-    background-image: url("/images/product/full2.png");
+    background-image: url("/images/product/full2.webp");
 }
 
 .img--full3{
-    background-image: url("/images/product/full3.png");
+    background-image: url("/images/product/full3.webp");
 }
 
 .img--full4{
-    background-image: url("/images/app/fondApp.png");
+    background-image: url("/images/app/fondApp.webp");
     height: 50vh;
     position: relative;
     overflow: hidden;

@@ -21,14 +21,14 @@ export default function Home() {
       <section className="section--gh gridcol">
         <p className="section--title">From basic greenhouse...</p>
         <p className="p--basic__modif gridcol--35">Everyone is familiar with the classic layout of a greenhouse. Generally, there are several rows of a certain type of&nbsp;fruit.</p>
-        <img className="img" src={`${import.meta.env.BASE_URL}images/product/basicGH.png`} alt="" />
+        <img className="img" src={`${import.meta.env.BASE_URL}images/product/basicGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/basicGH@2x.webp 2x`} alt="" />
         <p className="p--basic gridcol--35">The rows are separated by buffer zones, allowing the farmer to move around. The farmer often has to check on the condition of the plants, which takes&nbsp;time.</p>
       </section>
 
       <section className="section--gh2 gridcol">
         <p className="section--title">...to an automised one</p>
         <p className="p--basic__modif gridcol--35">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
-        <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.png`} alt="" />
+        <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/autoGH@2x.webp 2x`} alt="" />
         <p className="p--basic gridcol--35">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
       </section>
 
