@@ -518,8 +518,12 @@ background-color: #262626;
     padding-top: clamp(7rem, 4rem + 10vw, 12rem);
 }
 
-.contact--infos, .contact--form, .contact--img{
+.contact--infos, .contact--form{
     grid-column: 1/-1;
+}
+
+.contact--img{
+    display: none;
 }
 
 .contact--infos{
@@ -570,11 +574,6 @@ background-color: #262626;
     display: inline-block;
     transform: scale(1.5);
     margin: 0;
-}
-
-.contact--img{
-    width: 100%;
-    border-radius: 8px;
 }
 
 .btn--contact{
@@ -881,10 +880,11 @@ background-color: #262626;
     }
 
     .contact--img{
+        display: block;
         grid-column: 4/-1;
-        grid-row: 2/-1;
         margin-top: 0;
         width: 100%;
+        border-radius: 8px;
     }
 
     /*GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID */
