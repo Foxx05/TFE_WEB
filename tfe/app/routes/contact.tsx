@@ -103,7 +103,7 @@ export default function Contact() {
                 </div>
             )}
 
-            <img className="contact--img" src={`${import.meta.env.BASE_URL}/images/contact/strawberries.webp`} alt="Image showing some straweberries (ready to be sold)"/>
+            <img className="contact--img" src={`${import.meta.env.BASE_URL}/images/contact/strawberries.webp`} srcSet={`${import.meta.env.BASE_URL}/images/contact/@2x/strawberries@2x.webp`} alt="Image showing some straweberries (ready to be sold)"/>
         
       </section>
 
