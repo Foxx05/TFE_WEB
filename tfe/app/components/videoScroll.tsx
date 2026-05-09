@@ -14,7 +14,7 @@ export default function VideoScroll() {
     const context = canvas.getContext("2d") as CanvasRenderingContext2D;
     if (!context) return;
 
-    const frameCount = 144;
+    const frameCount = 72;
     const images: HTMLImageElement[] = [];
     const video = { frame: 0 };
 
