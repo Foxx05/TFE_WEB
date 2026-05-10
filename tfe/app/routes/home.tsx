@@ -44,7 +44,7 @@ export default function Home() {
         <img className="img--app" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} alt="" />
         <div className="section--app__content">
           <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best&nbsp;conditions.</p>
-          <p className="p--basic">The sensors are connected and send their measurements in real time to the app. You can watch it anywhere, anytime.</p>
+          <p className="p--basic">The sensors are connected and send their measurements in real time to the app. You can watch it anywhere,&nbsp;anytime.</p>
           <NavLink to="/app" className="btn--app">
             Discover&nbsp;the&nbsp;app
           </NavLink>
