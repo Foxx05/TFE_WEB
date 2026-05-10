@@ -65,6 +65,17 @@ export default function VideoScroll() {
           loadImage(i);
         }
       }
+      Promise.all(
+        images.map(
+          (img) =>
+            new Promise<void>((resolve) => {
+              img.onload = () => resolve();
+            })
+        )
+      ).then(() => {
+        render();
+        ScrollTrigger.refresh();
+      });
     }
 
     resizeCanvas();

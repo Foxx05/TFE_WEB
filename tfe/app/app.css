@@ -303,29 +303,9 @@ span{
     background-image: url("/images/history/headerHistory.webp");
 }
 
-.scroll--video {
-  height: 400vh;
-  position: relative;
-background-color: #262626;
+.section--video{
+    display: none;
 }
-
-.scroll--video__canvas {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: block;
-}
-
-.video-background{
-  position: sticky;
-  top: 62px;
-  width: 100%;
-  height: calc(100vh - 62px);
-  object-fit: cover;
-  display: block;
-}
-
 
 .section--app{
     background-color: #262626;
@@ -749,6 +729,34 @@ background-color: #262626;
     .img{
         grid-column: 1/3;
         grid-row: 2/-1;
+    }
+
+    .section--video{
+        display: block;
+    }
+
+    .scroll--video {
+        height: 400vh;
+        position: relative;
+        background-color: #262626;
+    }
+
+    .scroll--video__canvas {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+
+    .video-background{
+        position: sticky;
+        top: 62px;
+        width: 100%;
+        height: calc(100vh - 62px);
+        object-fit: cover;
+        display: block;
+        background-color: #262626;
     }
 
     .gridcol--35{
