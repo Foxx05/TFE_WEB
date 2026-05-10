@@ -46,7 +46,7 @@ export default function Home() {
           <p className="p--basic__modif">This app will provide every data’s you need to keep your culture growing in the best&nbsp;conditions.</p>
           <p className="p--basic">The sensors are connected and send their measurements in real time to the app. You can watch it anywhere, anytime.</p>
           <NavLink to="/app" className="btn--app">
-            Discover the app
+            Discover&nbsp;the&nbsp;app
           </NavLink>
         </div>
       </section>
