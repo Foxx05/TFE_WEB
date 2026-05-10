@@ -36,6 +36,12 @@ export default function Home() {
         <VideoScroll />
       </section>
 
+      <section className="gridcol section--presProd">
+        <p className="p--basic p--presProd__left">Here’s what a greenhouse equipped with the Berrycam ripening monitoring system looks like. Cameras monitor the plants from the side. The length of the rail can be adjusted to suit your&nbsp;needs.</p>
+        <p className="p--basic p--presProd__right">In this installation example, a camera monitors three trays of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more trays if the camera were positioned further&nbsp;back.</p>
+        <p className="p--basic p--presProd__left">Once the photo is taken, it is analyzed by a third-party program. This analysis (of the color) determines whether the strawberry is ready for harvest or&nbsp;not.</p>
+      </section>
+
       <section className="section--full section--app gridcol">
         <div className="app--title">
           <p className="app--title__start">An app&nbsp;in</p>
