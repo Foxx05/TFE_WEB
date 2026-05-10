@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default function VideoScroll() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const sectionRef = useRef<HTMLElement | null>(null);
-  const [activeText, setActiveText] = useState("");
+  const [activeText, setActiveText] = useState({text: "", className: "",});
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -25,16 +25,36 @@ export default function VideoScroll() {
       `${import.meta.env.BASE_URL}/frames/frame_${String(index + 1).padStart(4, "0")}.webp`;
 
     function updateText(frameIndex: number) {
-      if (frameIndex < 5) {
-        setActiveText("");
-      } else if (frameIndex >= 5 && frameIndex < 20) {
-        setActiveText("Here’s what a greenhouse equipped with the Berrycam ripening monitoring system looks like. Cameras monitor the plants from the side. The length of the rail can be adjusted to suit your needs.");
-      } else if (frameIndex >= 22 && frameIndex < 35) {
-        setActiveText("In this installation example, a camera monitors three trays of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more trays if the camera were positioned further back.");
-      } else if (frameIndex >= 37 && frameIndex < 68) {
-        setActiveText("Once the photo is taken, it is analyzed by a third-party program. This analysis (of the color) determines whether the strawberry is ready for harvest or not.");
-      } else if (frameIndex >= 70 && frameIndex < 72) {
-        setActiveText("");
+      if (frameIndex < 5 || frameIndex >= 70) {
+        setActiveText({
+          text: "",
+          className: "",
+        });
+      }
+      else if (frameIndex >= 5 && frameIndex < 20) {
+        setActiveText({
+          text: "Here’s what a greenhouse equipped with the Berrycam ripening monitoring system looks like. Cameras monitor the plants from the side. The length of the rail can be adjusted to suit your needs.",
+          className: "video--text__left",
+        });
+      }
+      else if (frameIndex >= 22 && frameIndex < 35) {
+        setActiveText({
+          text: "In this installation example, a camera monitors three trays of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more trays if the camera were positioned further back.",
+          className: "video--text__center",
+        });
+      }
+      else if (frameIndex >= 37 && frameIndex < 68) {
+
+        setActiveText({
+          text: "Once the photo is taken, it is analyzed by a third-party program. This analysis (of the color) determines whether the strawberry is ready for harvest or not.",
+          className: "video--text__right",
+        });
+      }
+      else {
+        setActiveText({
+          text: "",
+          className: "",
+        });
       }
     }
 
@@ -133,9 +153,9 @@ export default function VideoScroll() {
   return (
     <section ref={sectionRef} className="scroll--video">
 
-      {activeText && (
-        <div className="video--text">
-          <p>{activeText}</p>
+      {activeText.text && (
+        <div className={`video--text ${activeText.className}`}>
+          <p>{activeText.text}</p>
         </div>
       )}
 

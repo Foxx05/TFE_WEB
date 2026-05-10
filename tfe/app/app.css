@@ -760,15 +760,20 @@ span{
     }
 
     .video--text{
-        position: fixed;
-        top: 75%;
-        left: 25%;
-        transform: translate(-50%, -50%);
         z-index: 5;
         pointer-events: none;
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .video--text{
+        position: sticky;
+        top: 50%;
+        z-index: 5;
+        pointer-events: none;
+        width: 100%;
+        display: flex;
     }
 
     .video--text p{
@@ -779,7 +784,22 @@ span{
         border-radius: 25px;
         max-width: 600px;
         margin: 0 20px;
-        font-size: 27px
+        font-size: 27px;
+    }
+
+    .video--text__left{
+        justify-content: flex-start;
+        padding-left: 10%;
+    }
+
+    .video--text__center{
+        justify-content: center;
+        top: 25%;
+    }
+
+    .video--text__right{
+        justify-content: flex-end;
+        padding-right: 10%;
     }
 
     .gridcol--35{
