@@ -47,6 +47,7 @@ h2{
 .section--title__app{
     margin-top: clamp(0.3125rem, 0.0694rem + 1.1111vw, 0.9375rem);
     font-size: clamp(2rem, 1.9028rem + 0.4444vw, 2.25rem);
+    grid-column: 1/-1;
 }
 
 .head--text__contact{
@@ -125,11 +126,6 @@ a, p, button, .p--basic, .p--basic__contact{
     backdrop-filter: blur(10px);
     z-index: 20;
     transform: translateY(0);
-}
-
-.menu--hidden{
-    transform: translateY(-100%);
-    opacity: 0;
 }
 
 .menu__btn{
