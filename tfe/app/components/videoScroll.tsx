@@ -1,10 +1,11 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function VideoScroll() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const sectionRef = useRef<HTMLElement | null>(null);
+  const [activeText, setActiveText] = useState("");
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -22,6 +23,20 @@ export default function VideoScroll() {
 
     const currentFrame = (index: number) =>
       `${import.meta.env.BASE_URL}/frames/frame_${String(index + 1).padStart(4, "0")}.webp`;
+
+    function updateText(frameIndex: number) {
+      if (frameIndex < 5) {
+        setActiveText("");
+      } else if (frameIndex >= 5 && frameIndex < 20) {
+        setActiveText("Here’s what a greenhouse equipped with the Berrycam ripening monitoring system looks like. Cameras monitor the plants from the side. The length of the rail can be adjusted to suit your needs.");
+      } else if (frameIndex >= 22 && frameIndex < 35) {
+        setActiveText("In this installation example, a camera monitors three trays of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more trays if the camera were positioned further back.");
+      } else if (frameIndex >= 37 && frameIndex < 68) {
+        setActiveText("Once the photo is taken, it is analyzed by a third-party program. This analysis (of the color) determines whether the strawberry is ready for harvest or not.");
+      } else if (frameIndex >= 70 && frameIndex < 72) {
+        setActiveText("");
+      }
+    }
 
     function render() {
       const frameIndex = Math.min(
@@ -65,21 +80,29 @@ export default function VideoScroll() {
           loadImage(i);
         }
       }
-      Promise.all(
-        images.map(
-          (img) =>
-            new Promise<void>((resolve) => {
-              img.onload = () => resolve();
-            })
-        )
-      ).then(() => {
-        render();
-        ScrollTrigger.refresh();
-      });
     }
 
     resizeCanvas();
-    loadImage(0);
+
+    for (let i = 0; i < frameCount; i++) {
+      loadImage(i);
+    }
+
+    Promise.all(
+      images.map(
+        (img) =>
+          new Promise<void>((resolve) => {
+            if (img.complete) {
+              resolve();
+            } else {
+              img.onload = () => resolve();
+            }
+          })
+      )
+    ).then(() => {
+      render();
+      ScrollTrigger.refresh();
+    });
 
     const tween = gsap.to(video, {
       frame: frameCount - 1,
@@ -93,6 +116,7 @@ export default function VideoScroll() {
       onUpdate: () => {
         const frameIndex = Math.floor(video.frame);
         loadAroundFrame(frameIndex);
+        updateText(frameIndex);
         render();
       },
     });
@@ -108,6 +132,13 @@ export default function VideoScroll() {
 
   return (
     <section ref={sectionRef} className="scroll--video">
+
+      {activeText && (
+        <div className="video--text">
+          <p>{activeText}</p>
+        </div>
+      )}
+
       <canvas ref={canvasRef} className="scroll--video__canvas" />
     </section>
   );
