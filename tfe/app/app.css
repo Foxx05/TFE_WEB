@@ -26,6 +26,7 @@ h1, .app--title__start, .app--title__finish{
     font-size: clamp(2.6875rem, 0.0868rem + 11.8889vw, 9.375rem);
     font-family: 'Poller One', cursive;
     margin-top: 0;
+    margin-bottom: clamp(1.8125rem, 1.2535rem + 2.5556vw, 3.25rem);
 }
 
 .title--page{
