@@ -850,8 +850,16 @@ span{
         font-size: clamp(6.25rem, 1.3158rem + 6.3158vw, 7rem);
     }
 
+    .app--title__start{
+        position: absolute;
+        z-index: 10;
+        color: #fafafa;
+        -webkit-text-stroke: 1px #262626;
+        pointer-events: none;
+    }
+
     .app--title__finish{
-        margin-top: 300px;
+        margin-top: 450px;
         margin-bottom: 0;
     }
 
