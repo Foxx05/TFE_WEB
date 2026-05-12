@@ -73,7 +73,7 @@ export default function Contact() {
 
                 <label>
                     <p className="p--basic">Message</p>
-                    <textarea name="message"></textarea>
+                    <textarea name="message" placeholder="This field is optional. You can subscribe to the newsletter by checking the box below and then clicking “Send it”."></textarea>
                 </label>
 
                 {error && (

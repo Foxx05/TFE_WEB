@@ -542,7 +542,8 @@ span{
     border: 1px solid #753443;
     background: transparent;
     border-radius: 8px;
-    padding: 0.45rem;
+    padding: 0.45rem 1rem;
+    font-size: clamp(1rem, 0.9rem + 0.4vw, 1.2rem);
 }
 
 .contact--form textarea{
