@@ -307,6 +307,10 @@ span{
     display: none;
 }
 
+.p--presProd__left, .p--presProd__right{
+    grid-column: 1/-1;
+}
+
 .section--app{
     background-color: #262626;
     color: #fafafa;
@@ -564,7 +568,7 @@ span{
     align-self: center;
 }
 
-.gridcol{
+.gridcol, .section--presProd{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 8px;
@@ -667,7 +671,7 @@ span{
 
     /*GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID */
     
-    .gridcol{
+    .gridcol, .section--presProd{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         column-gap: 16px;
