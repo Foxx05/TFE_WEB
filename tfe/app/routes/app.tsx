@@ -54,7 +54,7 @@ export default function Home() {
 
       <div className="div--gradient">
         <p className="p--basic__modif">Any question or request  ?</p>
-        <p>Feel free to reach out, we are here to help you, anywhere, anytime.</p>
+        <p className="p--appToContact">Feel free to reach out, we are here to help you, anywhere, anytime.</p>
         <NavLink to="/projets/tfe_web/contact" className="btn--contact">
           Contact us
         </NavLink>
