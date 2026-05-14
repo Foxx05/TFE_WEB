@@ -20,7 +20,7 @@ export default function Home() {
       <section className="section--page gridcol">
         <p className="p--basic__number right">/01</p>
         <p className="section--title__app right">A final year&nbsp;project</p>
-        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet.webp`} alt="" />
+        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet@2x.webp 2x`} alt="" />
         <div className="div--right">
           <p className="p--basic__modif">It all started with an idea for my final year&nbsp;project.</p>
           <p className="p--basic">I wanted to address a current issue. As an anecdote, there is a strawberry farmer near my home who does everything manually. It is a large-scale operation that requires a lot of time. So I started thinking about a solution that would free up some of the farmer's&nbsp;time.</p>
@@ -30,7 +30,7 @@ export default function Home() {
       <section className="section--page gridcol">
         <p className="p--basic__number right2">/02</p>
         <p className="section--title__app right2">A solution to a&nbsp;problem</p>
-        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/history/sheet2.webp`} alt="" />
+        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/history/sheet2.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet2@2x.webp 2x`} alt="" />
         <div className="div--right2">
           <p className="p--basic__modif">I wanted to find a solution to an existing problem. I think it’s a good way to start a final year&nbsp;project.</p>
           <p className="p--basic">The idea came during a brainstorming with my father and a friend of his. I always had interest in&nbsp;farming.</p>
@@ -49,7 +49,7 @@ export default function Home() {
       <section className="section--page gridcol">
         <p className="p--basic__number right">/04</p>
         <p className="section--title__app right">The thinking behind the working&nbsp;model</p>
-        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} alt="" />
+        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="" />
         <div className="div--right">
           <p className="p--basic__modif">For this project, I wanted to use an Arduino or a Raspberry Pi. I thought my project would be more valuable if something actually worked alongside&nbsp;it.</p>
           <p className="p--basic">I'm clearly not an electronics expert, but I want to learn more than what we saw in&nbsp;school.</p>
