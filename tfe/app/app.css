@@ -89,7 +89,7 @@ a, p, button, .p--basic, .p--basic__contact{
     margin-bottom: 0;
 }
 
-.img{
+img{
     grid-column: 1/-1;
     width: 100%;
     border-radius: 25px;
@@ -870,7 +870,7 @@ span{
 
     .img--app{
         position: absolute;
-        left: 40%;
+        left: 30%;
         top: 50%;
         transform: translate(-50%, -50%);
         width: clamp(26.125rem, 12.9671rem + 16.8421vw, 28.125rem);
@@ -984,7 +984,7 @@ span{
     }
 
     .img--app{
-        left: clamp(25rem, -77.7961rem + 131.5789vw, 40.625rem);
+        left: 25%;
     }
 
     .section--intro{
