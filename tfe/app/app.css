@@ -468,6 +468,7 @@ span{
 .benefit img{
     width: clamp(42px, 10vw, 70px);
     height: 60px;
+    border-radius: 0;
 }
 
 .benefit p{
