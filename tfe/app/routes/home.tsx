@@ -13,7 +13,7 @@ export default function Home() {
         <div className="head--img__product"></div>
 
         <div className="head--text head--text__product">
-          <h1>Berrycam</h1>
+          <h1>BerryCam</h1>
           <h2>The future of strawberry greenhouse&nbsp;culture</h2>
         </div>
       </header>
