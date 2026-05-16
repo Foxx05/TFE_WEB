@@ -76,7 +76,6 @@ a, p, button, .p--basic, .p--basic__contact{
 }
 
 .p--basic__modif{
-    /* font-size: clamp(1.5rem, 1.4271rem + 0.3333vw, 1.6875rem); */
     font-size: clamp(1.375rem, 1.2535rem + 0.5556vw, 1.6875rem);
     margin-bottom: clamp(1.9375rem, 1.7674rem + 0.7778vw, 2.375rem);
 }
