@@ -3,9 +3,14 @@ import { useEffect, useRef } from "react";
 type RevealProps = {
   children: React.ReactNode;
   className?: string;
+  direction?: "up" | "left" | "right";
 };
 
-export default function Reveal({ children, className = "" }: RevealProps) {
+export default function Reveal({
+  children,
+  className = "",
+  direction = "up",
+}: RevealProps) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -30,7 +35,10 @@ export default function Reveal({ children, className = "" }: RevealProps) {
   }, []);
 
   return (
-    <div ref={ref} className={`reveal ${className}`}>
+    <div
+      ref={ref}
+      className={`reveal reveal--${direction} ${className}`}
+    >
       {children}
     </div>
   );

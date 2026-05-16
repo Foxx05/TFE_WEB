@@ -18,13 +18,13 @@ export default function Home() {
         </div>
       </header>
 
-      <Reveal>
+      <Reveal className="reveal--left">
         <section className="section--intro">
           <img className="img--phone" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} alt="" />
           <p className="p--intro">The app will provide you with accurate data on various parameters. These include, for example: <span>temperature</span>, <span>humidity</span> and <span>sunlight levels</span>. In addition to these parameters, <span>the app will notify you when the strawberries are close to being ready for harvest</span>. You can learn more about these technologies by scrolling down the&nbsp;page.</p>
         </section>
       </Reveal>
-      
+
       <Reveal>
         <section className="section--page gridcol">
           <p className="p--basic__number right">/01</p>
