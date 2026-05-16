@@ -1105,10 +1105,24 @@ span{
     }
 }
 
-@media (min-width: 1920px){
+@media (min-width: 1921px){
 
-  .gridcol, .section--presProd{
-      padding-left: 500px;
-      padding-right: 500px;
-  }
+
+
+    .gridcol, .section--presProd, .section--intro{
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-left:clamp(15rem, -7.848rem + 19.0301vw, 34.375rem);
+        padding-right: clamp(15rem, -7.848rem + 19.0301vw, 34.375rem);
+    }
+
+    .section--gh, .section--gh2{
+        margin-left: 270px;
+        margin-right: 270px;
+    }
+
+    .section--app{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
