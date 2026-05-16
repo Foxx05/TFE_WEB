@@ -95,14 +95,14 @@ export default function Home() {
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/mockup@2x.webp 2x`} alt="A view of the finished model; the LEDs are lit to simulate the different stages of a strawberry's ripening process."/></div>
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/rasp.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/rasp@2x.webp 2x`} alt="The microcomputer that controls the LEDs and displays information is open. The large panel allows you to see what's under the hood."/></div>
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/screen.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/screen@2x.webp 2x`} alt="An LCD screen displays the temperature, pressure (weather), and brightness. Below it, you can see the sensors."/></div>
-          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/fritzing.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/fritzing@2x.webp 2x`} alt="A section of the wiring diagram showing the LED wiring on the board."/></div>
         </div>
 
         <div aria-hidden className="group">
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/mockup@2x.webp 2x`} alt="A view of the finished model; the LEDs are lit to simulate the different stages of a strawberry's ripening process."/></div>
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/rasp.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/rasp@2x.webp 2x`} alt="The microcomputer that controls the LEDs and displays information is open. The large panel allows you to see what's under the hood."/></div>
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/screen.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/screen3@2x.webp 2x`} alt="An LCD screen displays the temperature, pressure (weather), and brightness. Below it, you can see the sensors."/></div>
-          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/fritzing.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/fritzing@2x.webp 2x`} alt="A section of the wiring diagram showing the LED wiring on the board."/></div>
         </div>
       </div>
 
