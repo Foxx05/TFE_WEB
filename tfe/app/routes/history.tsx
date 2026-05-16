@@ -52,7 +52,7 @@ export default function Home() {
         <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="" />
         <div className="div--right">
           <p className="p--basic__modif">For this project, I wanted to use an Arduino or a Raspberry Pi. I thought my project would be more valuable if something actually worked alongside&nbsp;it.</p>
-          <p className="p--basic">I'm clearly not an electronics expert, but I want to learn more than what we saw in&nbsp;school.</p>
+          <p className="p--basic">In addition, the digital twin demonstrates that the proposed system is functional and adaptable to real-world conditions. This adds value to the project, which is no longer entirely&nbsp;fictional.</p>
         </div>
       </section>
 
