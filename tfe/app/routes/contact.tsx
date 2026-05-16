@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import Nav from "../components/nav";
 import Footer from "../components/foot";
+import PageTransition from "../components/pageTransition";
 
 export default function Contact() {
   const [popup, setPopup] = useState(false);
@@ -33,6 +34,7 @@ export default function Contact() {
   }
 
   return (
+    <PageTransition>
     <main>
       <Nav />
         <header className="head--text__contact">
@@ -111,5 +113,6 @@ export default function Contact() {
         <Footer />
       </footer>
     </main>
+    </PageTransition>
   );
 }
