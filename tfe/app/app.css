@@ -1,16 +1,16 @@
 /*GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL */
 
 *{
-  box-sizing: border-box;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 400;
-  -webkit-tap-highlight-color: transparent; /* aide chatGPT pour retirer halo bleu chrome tel */
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    -webkit-tap-highlight-color: transparent; /* aide chatGPT pour retirer halo bleu chrome tel */
 }
 
 html, body{
-  margin: 0;
-  padding: 0;
-  background-color: #d6d6d6;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #d6d6d6;
 }
 
 .main--history{
@@ -1103,4 +1103,12 @@ span{
         column-gap: 40px;
         padding: 0 240px;
     }
+}
+
+@media (min-width: 1920px){
+
+  .gridcol, .section--presProd{
+      padding-left: 500px;
+      padding-right: 500px;
+  }
 }
