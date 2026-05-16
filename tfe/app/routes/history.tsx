@@ -9,7 +9,7 @@ import PageTransition from "../components/pageTransition";
 export default function Home() {
   return (
     <PageTransition>
-    <main>
+    <main className="main--history">
       <Nav />
       <header className="head">
         <div className="head--img__history"></div>

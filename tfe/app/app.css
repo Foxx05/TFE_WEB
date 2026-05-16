@@ -13,6 +13,10 @@ html, body{
   background-color: #d6d6d6;
 }
 
+.main--history{
+    overflow-x: hidden;
+}
+
 footer{
     border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
@@ -567,7 +571,7 @@ span{
     margin: 100px auto;
     width: 90%;
     display: flex;
-    overflow-x: auto;
+    overflow: hidden;
 }
 
 .carousel::-webkit-scrollbar{
@@ -581,6 +585,7 @@ span{
     gap: 1em;
     animation: spin 15s infinite linear;
     padding-right: 1em;
+    flex-shrink: 0;
 }
 
 .card{
