@@ -82,7 +82,7 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right2">/06</p>
           <p className="section--title__app right2">Proof of&nbsp;concept</p>
-          <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="" />
+          <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="" />
           <div className="div--right2">
             <p className="p--basic__modif">To validate the idea, I have designed a mock-up to provide data to our&nbsp;database.</p>
             <p className="p--basic">The mock-up is made of 3 digital strawberry plants with fruits represented by RBG LED. The LED's colours are changed to represent the strawberry from flower to full red ripped fruit. Som e sensors have also been added to simulate the weather's conditions (tempereture, humidity and athmosphere&nbsp;pressure)</p>
@@ -93,15 +93,15 @@ export default function Home() {
       <div className="carousel">
         <div className="group">
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
-          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
-          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/rasp.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/screen.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
         </div>
 
         <div aria-hidden className="group">
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
-          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
-          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/rasp.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/screen.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
           <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
         </div>
       </div>
