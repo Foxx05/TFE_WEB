@@ -92,17 +92,17 @@ export default function Home() {
 
       <div className="carousel">
         <div className="group">
-          <div className="card">1</div>
-          <div className="card">2</div>
-          <div className="card">3</div>
-          <div className="card">4</div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
         </div>
 
         <div aria-hidden className="group">
-          <div className="card">1</div>
-          <div className="card">2</div>
-          <div className="card">3</div>
-          <div className="card">4</div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
+          <div className="card"><img src={`${import.meta.env.BASE_URL}/images/history/sheet3.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt=""/></div>
         </div>
       </div>
 
