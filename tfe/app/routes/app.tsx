@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Nav from "../components/nav";
 import Footer from "../components/foot";
 import { NavLink } from "react-router";
+import Reveal from "../components/reveal";
 
 export default function Home() {
   return (
@@ -17,40 +18,48 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="section--intro">
-        <img className="img--phone" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} alt="" />
-        <p className="p--intro">The app will provide you with accurate data on various parameters. These include, for example: <span>temperature</span>, <span>humidity</span> and <span>sunlight levels</span>. In addition to these parameters, <span>the app will notify you when the strawberries are close to being ready for harvest</span>. You can learn more about these technologies by scrolling down the&nbsp;page.</p>
-      </section>
+      <Reveal>
+        <section className="section--intro">
+          <img className="img--phone" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} alt="" />
+          <p className="p--intro">The app will provide you with accurate data on various parameters. These include, for example: <span>temperature</span>, <span>humidity</span> and <span>sunlight levels</span>. In addition to these parameters, <span>the app will notify you when the strawberries are close to being ready for harvest</span>. You can learn more about these technologies by scrolling down the&nbsp;page.</p>
+        </section>
+      </Reveal>
+      
+      <Reveal>
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/01</p>
+          <p className="section--title__app right">Live sensor&nbsp;data</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.webp`} alt="The first part of the app, displaying the data sent by the sensors" />
+          <div className="div--right">
+            <p className="p--basic__modif">Here you can see every measurements made by the sensors. You don’t need to travel to your greenhouse, everything useful is shown&nbsp;here.</p>
+            <p className="p--basic">To guarantee the best efficiency, it is recommended to stay in the green&nbsp;zone.</p>
+          </div>
+        </section>
+      </Reveal>
 
-      <section className="section--page gridcol">
-        <p className="p--basic__number right">/01</p>
-        <p className="section--title__app right">Live sensor&nbsp;data</p>
-        <img className="img--right" src={`${import.meta.env.BASE_URL}/images/app/app1.webp`} alt="The first part of the app, displaying the data sent by the sensors" />
-        <div className="div--right">
-          <p className="p--basic__modif">Here you can see every measurements made by the sensors. You don’t need to travel to your greenhouse, everything useful is shown&nbsp;here.</p>
-          <p className="p--basic">To guarantee the best efficiency, it is recommended to stay in the green&nbsp;zone.</p>
-        </div>
-      </section>
+      <Reveal>
+        <section className="section--page gridcol">
+          <p className="p--basic__number left">/02</p>
+          <p className="section--title__app left">Monthly production</p>
+          <img className="img--left" src={`${import.meta.env.BASE_URL}/images/app/app2.webp`} alt="The second part of the app, showing the monthly production chart" />
+          <div className="div--left">
+            <p className="p--basic__modif">This graphics shows you how many strawberries were collected, per&nbsp;month.</p>
+            <p className="p--basic">By using these data’s, you can see which month was more productive than another and clearly understand&nbsp;why.</p>
+          </div>
+        </section>
+      </Reveal>
 
-      <section className="section--page gridcol">
-        <p className="p--basic__number left">/02</p>
-        <p className="section--title__app left">Monthly production</p>
-        <img className="img--left" src={`${import.meta.env.BASE_URL}/images/app/app2.webp`} alt="The second part of the app, showing the monthly production chart" />
-        <div className="div--left">
-          <p className="p--basic__modif">This graphics shows you how many strawberries were collected, per&nbsp;month.</p>
-          <p className="p--basic">By using these data’s, you can see which month was more productive than another and clearly understand&nbsp;why.</p>
-        </div>
-      </section>
-
-      <section className="section--page gridcol">
-        <p className="p--basic__number right2">/03</p>
-        <p className="section--title__app right2">Greenhouse overview</p>
-        <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.webp`} alt="Third section of the app, showing the greenhouse dimensions (which the farmer can adjust)" />
-        <div className="div--right2">
-          <p className="p--basic__modif">Here you see the dimensions of your greenhouse and its orientation. It will help you to understand its&nbsp;efficiency.</p>
-          <p className="p--basic">You have more than one greenhouse ? that is not a problem, you can add a new one in the app at any&nbsp;time.</p>
-        </div>
-      </section>
+      <Reveal>
+        <section className="section--page gridcol">
+          <p className="p--basic__number right2">/03</p>
+          <p className="section--title__app right2">Greenhouse overview</p>
+          <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/app/app3.webp`} alt="Third section of the app, showing the greenhouse dimensions (which the farmer can adjust)" />
+          <div className="div--right2">
+            <p className="p--basic__modif">Here you see the dimensions of your greenhouse and its orientation. It will help you to understand its&nbsp;efficiency.</p>
+            <p className="p--basic">You have more than one greenhouse ? that is not a problem, you can add a new one in the app at any&nbsp;time.</p>
+          </div>
+        </section>
+      </Reveal>
 
       <div className="div--gradient">
         <p className="p--basic__modif">Any question or request  ?</p>

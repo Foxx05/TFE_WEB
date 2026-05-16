@@ -96,6 +96,18 @@ img{
     margin-bottom: clamp(1.5625rem, 1.4896rem + 0.3333vw, 1.75rem);
 }
 
+.reveal{
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all .8s ease;
+    will-change: opacity, transform;
+}
+
+.reveal.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .popup--success {
   position: fixed;
   left: 50%;
