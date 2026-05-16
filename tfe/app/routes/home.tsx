@@ -4,10 +4,13 @@ import Nav from "../components/nav";
 import VideoScroll from "../components/videoScroll";
 import Footer from "../components/foot";
 import { NavLink } from "react-router";
+import PageTransition from "../components/pageTransition";
 
 export default function Home() {
   return (
+    <PageTransition>
     <main>
+
       <Nav />
       <header className="head">
         <div className="head--img__product"></div>
@@ -106,5 +109,6 @@ export default function Home() {
         <Footer />
       </footer>
     </main>
+    </PageTransition>
   );
 }

@@ -4,9 +4,11 @@ import Nav from "../components/nav";
 import Footer from "../components/foot";
 import { NavLink } from "react-router";
 import Reveal from "../components/reveal";
+import PageTransition from "../components/pageTransition";
 
 export default function Home() {
   return (
+    <PageTransition>
     <main>
       <Nav />
       <header className="head">
@@ -108,5 +110,6 @@ export default function Home() {
         <Footer />
       </footer>
     </main>
+    </PageTransition>
   );
 }
