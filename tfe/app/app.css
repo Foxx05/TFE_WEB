@@ -270,11 +270,13 @@ img{
 
 .p--basic a{
     font-weight: 500;
+    transition: all .3s;
 }
 
 .p--basic a:hover{
     font-weight: 600;
     color: #753443;
+    text-decoration: underline;
 }
 
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
