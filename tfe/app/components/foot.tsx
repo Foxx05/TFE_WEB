@@ -30,7 +30,7 @@ export default function Footer() {
         </svg>
 
       </div>
-      <p className="p--foot">Berrycam</p>
+      <p className="p--foot">BerryCam</p>
     </footer>
   );
 }
