@@ -838,6 +838,46 @@ span{
 
     /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
 
+    .scroll-down{
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        width: 80px;
+        height: 80px;
+        z-index: 25;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fafafa;
+        transition: opacity 0.3s ease;
+    }
+
+    .scroll-down.hidden{
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .scroll-circle{
+        animation: rotate 1.5s linear infinite;
+        transform-origin: 25px 25px;
+    }
+
+    .scroll-down path{
+        animation: bounce 2s infinite;
+    }
+
+    @keyframes rotate{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+
+    @keyframes bounce{
+        0%, 20%, 50%, 80%, 100%{transform: translateY(0);}
+        40%{transform: translateY(-8px);}
+        60%{transform: translateY(-4px);}
+    }
+
     .head--img__product, .head--img__app, .head--img__history, .head--img__credit{
         height: 120vh;
     }
