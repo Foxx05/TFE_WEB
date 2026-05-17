@@ -46,7 +46,6 @@ h2{
     grid-column: 1/-1;
     line-height: 115%;
     margin-bottom: clamp(2.3125rem, 0.8542rem + 6.6667vw, 6.0625rem);
-    /* font-weight: 500; */
 }
 
 .section--title__app{
@@ -235,8 +234,7 @@ img{
     transform: translateX(0);
 }
 
-.menu__liste a.active,
-.nav-vertical a.active{
+.menu__liste a.active, .nav-vertical a.active{
   text-decoration: underline;
   color: #753443;
 }
@@ -250,7 +248,7 @@ img{
     font-size: 25px;
 }
 
-.menu--li a{
+.menu--li a, .p--basic a{
     color: #393939;
     text-decoration: none;
     font-weight: bold;
@@ -271,6 +269,15 @@ img{
 }
 
 .logo:hover{
+    color: #753443;
+}
+
+.p--basic a{
+    font-weight: 500;
+}
+
+.p--basic a:hover{
+    font-weight: 600;
     color: #753443;
 }
 

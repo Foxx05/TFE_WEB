@@ -12,13 +12,24 @@ export default function Home() {
     <main className="main--history">
       <Nav />
       <header className="head">
-
         <div className="head--text head--text__app">
           <h1 className="title--page">Credits</h1>
           <h2>Where did I get that ?</h2>
         </div>
       </header>
 
+      <Reveal className="reveal--left">
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/01</p>
+          <p className="section--title__app right">3D&nbsp;assets</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <div className="div--right">
+            <p className="p--basic__modif">I used two 3D assets in my greenhouse scene: the blue plastic bins and the wheelbarrow.</p>
+            <p className="p--basic"><a href="https://free3d.com/fr/3d-model/dirty-wheelbarrow-low-poly-3d-model-410575.html?dd_referrer=" target="_blank" rel="noopener noreferrer">Link to the wheelbarrow asset</a></p>
+            <p className="p--basic"><a href="https://free3d.com/fr/3d-model/plastic-fruit-crate-v1--190535.html" target="_blank" rel="noopener noreferrer">Link to the plastic bins</a></p>
+          </div>
+        </section>
+      </Reveal>
 
       <footer>
         <Footer />
