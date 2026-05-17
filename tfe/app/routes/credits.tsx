@@ -14,7 +14,7 @@ export default function Home() {
       <header className="head">
         <div className="head--img__credit"></div>
         <div className="head--text head--text__credit">
-          <h1 className="title--page">Behind&nbsp;BerryCam</h1>
+          <h1>Credits</h1>
           <h2>Where did I get that ?</h2>
         </div>
       </header>
@@ -35,7 +35,7 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/02</p>
-          <p className="section--title__app right">Some&nbsp;acknowledgments</p>
+          <p className="section--title__app right">Lajajaj</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I think it’s important to thank a few people without whom this project wouldn’t be what it is&nbsp;today.</p>
@@ -47,7 +47,7 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/03</p>
-          <p className="section--title__app right">Some&nbsp;acknowledgments</p>
+          <p className="section--title__app right">A few&nbsp;thanks</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I think it’s important to thank a few people without whom this project wouldn’t be what it is&nbsp;today.</p>

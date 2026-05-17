@@ -15,7 +15,7 @@ export default function Home() {
         <div className="head--img__history"></div>
 
         <div className="head--text head--text__app">
-          <h1 className="title--page">A brief historical&nbsp;note</h1>
+          <h1>Where it started ?</h1>
           <h2>A story that is just&nbsp;beginning...</h2>
         </div>
       </header>

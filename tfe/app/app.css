@@ -33,10 +33,6 @@ h1, .app--title__start, .app--title__finish{
     margin-bottom: clamp(1.8125rem, 1.2535rem + 2.5556vw, 3.25rem);
 }
 
-.title--page{
-    font-size: clamp(1.5rem, 0.941rem + 2.5556vw, 2.9375rem);
-}
-
 h2{
     font-size: clamp(1.5rem, 0.941rem + 2.5556vw, 2.9375rem);
 }

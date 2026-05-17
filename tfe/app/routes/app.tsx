@@ -15,7 +15,7 @@ export default function Home() {
         <div className="head--img__app"></div>
 
         <div className="head--text head--text__app">
-          <h1 className="title--page">What does the app tell&nbsp;you ?</h1>
+          <h1>What’s in&nbsp;app ?</h1>
           <h2>Here is the answer... A lot of&nbsp;things !</h2>
         </div>
       </header>
