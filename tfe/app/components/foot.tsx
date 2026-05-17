@@ -17,7 +17,7 @@ export default function Footer() {
         <NavLink to="/projets/tfe_web/contact" className="foot--li">
           Contact us
         </NavLink>
-        <NavLink to="/projets/tfe_web/credit" className="foot--li">
+        <NavLink to="/projets/tfe_web/credits" className="foot--li">
           Credits
         </NavLink>
       </div>
