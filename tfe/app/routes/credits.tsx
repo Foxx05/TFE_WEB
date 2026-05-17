@@ -50,10 +50,11 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right">/03</p>
           <p className="section--title__app right">A few&nbsp;thanks</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sheet.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I think it’s important to thank a few people without whom this project wouldn’t be what it is&nbsp;today.</p>
             <p className="p--basic">Thank you to the strawberry farmer who let me take photos of his greenhouses (La Fraiserie de Franière), to my internship supervisor for his regular feedback throughout the project, and to my teachers and friends for their&nbsp;help.</p>
+            <p className="p--basic"><a href="https://www.facebook.com/p/La-Fraiseraie-de-Frani%C3%A8re-100057332063508/?locale=fr_FR">Link to the Facebook page of "La fraiserie de Franière"</a></p>
           </div>
         </section>
       </Reveal>
