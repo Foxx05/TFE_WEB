@@ -350,7 +350,7 @@ span{
     color: #fafafa;
 }
 
-.head--img__product, .head--img__app, .head--img__history{
+.head--img__product, .head--img__app, .head--img__history, .head--img__credit{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -367,6 +367,10 @@ span{
 
 .head--img__history{
     background-image: url("/images/history/headerHistory.webp");
+}
+
+.head--img__credit{
+    background-image: url("/images/credit/headerCredit.webp");
 }
 
 .section--video{
