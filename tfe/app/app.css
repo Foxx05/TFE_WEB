@@ -840,7 +840,7 @@ span{
 
     /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
 
-    .head--img__product, .head--img__app, .head--img__history{
+    .head--img__product, .head--img__app, .head--img__history, .head--img__credit{
         height: 120vh;
     }
 
