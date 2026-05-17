@@ -6,7 +6,7 @@ import Footer from "../components/foot";
 import { NavLink } from "react-router";
 import Reveal from "../components/reveal";
 import PageTransition from "../components/pageTransition";
-import ScrollDown from "../components/scrolldown";
+import ScrollDown from "../components/scrollDown";
 
 export default function Home() {
   return (
@@ -21,7 +21,9 @@ export default function Home() {
           <h2>The future of strawberry greenhouse&nbsp;culture</h2>
         </div>
       </header>
+
       <ScrollDown />
+      
       <Reveal>
         <section className="section--gh gridcol">
           <p className="section--title">From basic greenhouse...</p>
