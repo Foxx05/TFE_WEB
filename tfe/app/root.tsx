@@ -1,6 +1,6 @@
 import { Links, Outlet, Scripts } from "react-router";
 import appStyles from "./app.css?url";
-import ScrollToTop from "./components/scrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 
 export const links = () => [
   { rel: "stylesheet", href: appStyles },

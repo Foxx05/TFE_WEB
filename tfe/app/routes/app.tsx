@@ -1,10 +1,10 @@
 import { Link } from "react-router";
 import { useEffect, useState } from "react";
-import Nav from "../components/nav";
-import Footer from "../components/foot";
+import Nav from "../components/Nav";
+import Footer from "../components/Foot";
 import { NavLink } from "react-router";
-import Reveal from "../components/reveal";
-import PageTransition from "../components/pageTransition";
+import Reveal from "../components/Reveal";
+import PageTransition from "../components/PageTransition";
 
 export default function Home() {
   return (

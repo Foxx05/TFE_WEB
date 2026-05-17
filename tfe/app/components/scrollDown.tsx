@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function ScrollDown() {
+export default function scrollDown() {
 
   useEffect(() => {
     const handleScroll = () => {

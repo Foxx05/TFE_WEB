@@ -1,8 +1,8 @@
 import { Link } from "react-router";
 import { useEffect, useState } from "react";
-import Nav from "../components/nav";
-import Footer from "../components/foot";
-import PageTransition from "../components/pageTransition";
+import Nav from "../components/Nav";
+import Footer from "../components/Foot";
+import PageTransition from "../components/PageTransition";
 
 export default function Contact() {
   const [popup, setPopup] = useState(false);
