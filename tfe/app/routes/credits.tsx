@@ -36,7 +36,7 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/02</p>
-          <p className="section--title__app right">With the help of&nbsp;YouTube</p>
+          <p className="section--title__app right">About the carousel&nbsp;animation</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/carousel.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/carousel@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I ran into a few issues with the carousel section on the “History”&nbsp;page.</p>
@@ -49,6 +49,20 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/03</p>
+          <p className="section--title__app right">About the digital&nbsp;tween</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/carousel.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/carousel@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <div className="div--right">
+            <p className="p--basic__modif">I read the documentation and watched a video on YouTube to&nbsp;learn</p>
+            <p className="p--basic">Regarding the Scikit-learn documentation, I decided to use the KNN method. I watched a video on YouTube to better understand the logic behind this&nbsp;method.</p>
+            <p className="p--basic"><a href="https://scikit-learn.org/stable/index.html" target="_blank" rel="noopener noreferrer">Link to Scikit-learn</a></p>
+            <p className="p--basic"><a href="https://www.youtube.com/watch?v=Xh-J_m-bZcE" target="_blank" rel="noopener noreferrer">Link to watch the same video</a>.</p>
+          </div>
+        </section>
+      </Reveal>
+
+      <Reveal className="reveal--left">
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/04</p>
           <p className="section--title__app right">A few&nbsp;thanks</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
