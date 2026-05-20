@@ -33,8 +33,8 @@ export default function scrollDown() {
   return (
     <div className="scroll-down" onClick={scrollToSection}>
       <svg width="80" height="80" viewBox="0 0 50 50">
-        <circle cx="25" cy="25" r="20" stroke="#fafafa" strokeWidth="3" fill="none" strokeLinecap="round" strokeDasharray="125" strokeDashoffset="100" className="scroll-circle"/>
-        <path d="M25 32 l-6 -6 h12 l-6 6" fill="#fafafa"/>
+        <circle cx="25" cy="25" r="20" stroke="#fafafa" strokeWidth="2" fill="none" strokeLinecap="round" strokeDasharray="125" strokeDashoffset="100" className="scroll-circle"/>
+        <path d="M25 29 l-6 -6 h12 l-6 6" fill="#fafafa"/>
       </svg>
     </div>
   );
