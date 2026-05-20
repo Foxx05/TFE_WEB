@@ -85,7 +85,7 @@ export default function Home() {
           <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="A view of the finished model; the LEDs are lit to simulate the different stages of a strawberry's ripening process."/>
           <div className="div--right2">
             <p className="p--basic__modif">To validate the idea, I have designed a mock-up to provide data to our&nbsp;database.</p>
-            <p className="p--basic">The mock-up is made of 3 digital strawberry plants with fruits represented by RBG LED. The LED's colours are changed to represent the strawberry from flower to full red ripped fruit. Som e sensors have also been added to simulate the weather's conditions (tempereture, humidity and athmosphere&nbsp;pressure)</p>
+            <p className="p--basic">The mock-up is made of 3 digital strawberry plants with fruits represented by RBG LED. The LED's colours are changed to represent the strawberry from flower to full red ripped fruit. Some sensors have also been added to simulate the weather's conditions (tempereture, humidity and athmosphere&nbsp;pressure)</p>
           </div>
         </section>
       </Reveal>
