@@ -281,7 +281,7 @@ img{
 
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 
-.foot--list{
+.foot--list, .p--copy{
     grid-column: 1/2;
     margin-top: 36px;
     display: flex;
@@ -309,14 +309,6 @@ img{
     color: #753443;
 }
 
-.div--res{
-    margin-top: 36px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 18px;
-    grid-column: 3/4;
-}
-
 span{
     color: #753443;
     font-weight: 600;
@@ -329,6 +321,11 @@ span{
     font-family: 'Poller One', cursive;
     color: #262626;
     margin-bottom: 0px;
+}
+
+.p--copy{
+    grid-column: 1/-1;
+    margin-bottom: 0;
 }
 
 /*CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU CONTENU */
@@ -1084,8 +1081,9 @@ span{
         gap: 50px;
     }
 
-    .div--res{
-        margin-top: 70px;
+    .p--copy{
+        grid-column: 5/-1;
+        margin-top: 72px;
     }
 
     .contact--infos{
