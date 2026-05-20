@@ -46,14 +46,14 @@ export default function Contact() {
             <div className="contact--infos">
             <div>
                 <h2 className="benefits--title">General inquiries</h2>
-                <p className="p--basic">berrycam.questions@gmail.com</p>
-                <p className="p--basic">+32 492 50 37 14</p>
+                <p className="p--basic"><a href="mailto:berrycam.questions@gmail.com">berrycam.questions@gmail.com</a></p>
+                <p className="p--basic"><a href="tel:+32492503714">+32 492 50 37 14</a></p>
             </div>
 
             <div>
                 <h2 className="benefits--title">Collaborations</h2>
-                <p className="p--basic">berrycam.collab@gmail.com</p>
-                <p className="p--basic">+32 492 52 84 43</p>
+                <p className="p--basic"><a href="mailto:berrycam.collab@gmail.com">berrycam.collab@gmail.com</a></p>
+                <p className="p--basic"><a href="tel:+32492528443">+32 492 52 84 43</a></p>
             </div>
             </div>
 
