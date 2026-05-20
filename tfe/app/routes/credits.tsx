@@ -68,7 +68,7 @@ export default function Home() {
           <div className="div--right">
             <p className="p--basic__modif">I think it’s important to thank a few people without whom this project wouldn’t be what it is&nbsp;today.</p>
             <p className="p--basic">Thank you to the strawberry farmer who let me take photos of his greenhouses (La Fraiserie de Franière), to my internship supervisor for his regular feedback throughout the project, and to my teachers and friends for their&nbsp;help.</p>
-            <p className="p--basic"><a href="https://www.facebook.com/p/La-Fraiseraie-de-Frani%C3%A8re-100057332063508/?locale=fr_FR">Link to the Facebook page of "La fraiserie de Franière"</a></p>
+            <p className="p--basic"><a href="https://www.facebook.com/p/La-Fraiseraie-de-Frani%C3%A8re-100057332063508/?locale=fr_FR">Link to the Facebook page of "La Fraiserie de Franière"</a></p>
           </div>
         </section>
       </Reveal>
