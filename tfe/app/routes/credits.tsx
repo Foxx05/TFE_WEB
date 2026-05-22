@@ -41,7 +41,7 @@ export default function Home() {
           <div className="div--right">
             <p className="p--basic__modif">I ran into a few issues with the carousel section on the “History”&nbsp;page.</p>
             <p className="p--basic">I followed this tutorial video, it helped me understand how to achieve the look I wanted. I then adjusted the various settings to match the project’s overall&nbsp;atmosphere.</p>
-            <p className="p--basic"><a href="https://www.youtube.com/watch?v=KD1Yo8a_Qis" target="_blank" rel="noopener noreferrer">Link to watch the same video</a>.</p>
+            <p className="p--basic"><a href="https://www.youtube.com/watch?v=KD1Yo8a_Qis" target="_blank" rel="noopener noreferrer">Link to watch the same video</a></p>
           </div>
         </section>
       </Reveal>
@@ -55,7 +55,7 @@ export default function Home() {
             <p className="p--basic__modif">I read the documentation and watched a video on YouTube to&nbsp;learn</p>
             <p className="p--basic">Regarding the Scikit-learn documentation, I decided to use the KNN method. I watched a video on YouTube to better understand the logic behind this&nbsp;method.</p>
             <p className="p--basic"><a href="https://scikit-learn.org/stable/index.html" target="_blank" rel="noopener noreferrer">Link to Scikit-learn</a></p>
-            <p className="p--basic"><a href="https://www.youtube.com/watch?v=Xh-J_m-bZcE" target="_blank" rel="noopener noreferrer">Link to watch the same video</a>.</p>
+            <p className="p--basic"><a href="https://www.youtube.com/watch?v=Xh-J_m-bZcE" target="_blank" rel="noopener noreferrer">Link to watch the same video</a></p>
           </div>
         </section>
       </Reveal>
@@ -63,6 +63,22 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/04</p>
+          <p className="section--title__app right">About the&nbsp;electronic</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/carousel.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/carousel@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <div className="div--right">
+            <p className="p--basic__modif">I'm really not an electronical engineer...</p>
+            <p className="p--basic">I had to learn quite a bit about the electronics side of things during this project. I mainly relied on the documentation for the various electronic&nbsp;components.</p>
+            <p className="p--basic"><a href="https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython" target="_blank" rel="noopener noreferrer">Link to the PCA9685 documentation</a></p>
+            <p className="p--basic"><a href="https://learn.adafruit.com/monochrome-oled-breakouts/wiring-128x64-oleds" target="_blank" rel="noopener noreferrer">Link to the Monochrome OLED documentation</a></p>
+            <p className="p--basic"><a href="https://learn.adafruit.com/adafruit-aht20" target="_blank" rel="noopener noreferrer">Link to the AHT20 documentation</a></p>
+            <p className="p--basic"><a href="https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor" target="_blank" rel="noopener noreferrer">Link to the BH1750 documentation</a></p>
+          </div>
+        </section>
+      </Reveal>
+
+      <Reveal className="reveal--left">
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/05</p>
           <p className="section--title__app right">A video&nbsp;section</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
@@ -75,7 +91,7 @@ export default function Home() {
 
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
-          <p className="p--basic__number right">/05</p>
+          <p className="p--basic__number right">/06</p>
           <p className="section--title__app right">A few&nbsp;thanks</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
