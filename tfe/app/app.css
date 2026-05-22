@@ -698,7 +698,7 @@ span{
         margin-bottom: 180px;
     }
 
-    .img{
+    .img, .img--left, .img--right, .img--right2{
         grid-column: 2/5;
     }
 
@@ -768,6 +768,11 @@ span{
 
     .contact--infos{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .p--copy{
+        grid-column: 4/-1;
+        text-align: right;
     }
 
     .p--foot{
