@@ -69,8 +69,8 @@ export default function Home() {
 
       <section className="section--full">
         <div className="text--hover text--right">
-          <p className="p--basic__modif right">See the installation ? The cameras will take some picture of your culture. Those pictures will be later analyzed by a dedicated&nbsp;program.</p>
-          <p className="p--basic right">The various sensors will be installed on those celling supports. The installation will be really easy and carried out by a super&nbsp;team.</p>
+          <p className="p--basic__modif right">See the installation ? The cameras will take some pictures of your culture. Those pictures will be later analyzed by a dedicated&nbsp;program.</p>
+          <p className="p--basic right">The various sensors will be installed on those ceiling supports. The installation will be really easy and carried out by a super&nbsp;team.</p>
         </div>
         <div className="img--full1"></div>
       </section>

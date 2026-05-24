@@ -39,7 +39,7 @@ export default function VideoScroll() {
       }
       else if (frameIndex >= 22 && frameIndex < 35) {
         setActiveText({
-          text: "In this installation example, a camera monitors three trays of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more trays if the camera were positioned further back.",
+          text: "In this installation example, a camera monitors three strawberry plants. The camera is positioned 35 cm (about 14 inches) from the gutter. It’s entirely possible that it could monitor more trays if the camera were positioned further back.",
           className: "video--text__center",
         });
       }
