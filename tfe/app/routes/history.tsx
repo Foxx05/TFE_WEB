@@ -38,7 +38,7 @@ export default function Home() {
           <img className="img--right2" src={`${import.meta.env.BASE_URL}/images/history/sheet2.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet2@2x.webp 2x`} alt="The same notebook is open to the next page, revealing a conceptual diagram for the project. There are some cross-outs on the page. Below the notebook, part of the model’s wiring diagram is visible."/>
           <div className="div--right2">
             <p className="p--basic__modif">I wanted to find a solution to an existing problem. I think it’s a good way to start a final year&nbsp;project.</p>
-            <p className="p--basic">The idea came during a brainstorming with my father and a friend of his. I always had interest in&nbsp;farming.</p>
+            <p className="p--basic">The idea came during a brainstorming with my father and a friend of him who is bio engineer and farmer. I always had interest in&nbsp;farming.</p>
           </div>
         </section>
       </Reveal>
@@ -86,6 +86,18 @@ export default function Home() {
           <div className="div--right2">
             <p className="p--basic__modif">To validate the idea, I have designed a mock-up to provide data to our&nbsp;database.</p>
             <p className="p--basic">The mock-up is made of 3 digital strawberry plants with fruits represented by RBG LED. The LED's colours are changed to represent the strawberry from flower to full red ripped fruit. Some sensors have also been added to simulate the weather's conditions (tempereture, humidity and athmosphere&nbsp;pressure)</p>
+          </div>
+        </section>
+      </Reveal>
+
+      <Reveal className="reveal--right">
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/07</p>
+          <p className="section--title__app right">What is the Raspbery doing ?</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="A view of the finished model; the LEDs are lit to simulate the different stages of a strawberry's ripening process."/>
+          <div className="div--right">
+            <p className="p--basic__modif">The Raspberry Pi automatically captures images of the mock-up using a webcam and analyzes them with a computer vision&nbsp;model.</p>
+            <p className="p--basic">It detects the different growth stages of the fruits and combines this information with environmental sensor data such as temperature, humidity, pressure, and light intensity. All collected and processed data is then sent to a MySQL database, allowing the web application to display real-time greenhouse monitoring and production statistics.</p>
           </div>
         </section>
       </Reveal>
