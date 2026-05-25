@@ -94,7 +94,7 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right">/07</p>
           <p className="section--title__app right">What is the Raspbery doing ?</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/mockup.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sheet3@2x.webp 2x`} alt="A view of the finished model; the LEDs are lit to simulate the different stages of a strawberry's ripening process."/>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/history/sensor.webp`} srcSet={`${import.meta.env.BASE_URL}/images/history/@2x/sensor@2x.webp 2x`} alt="A close-up of the LCD screen displaying various data."/>
           <div className="div--right">
             <p className="p--basic__modif">The Raspberry Pi automatically captures images of the mock-up using a webcam and analyzes them with a computer vision&nbsp;model.</p>
             <p className="p--basic">It detects the different growth stages of the fruits and combines this information with environmental sensor data such as temperature, humidity, pressure, and light intensity. All collected and processed data is then sent to a MySQL database, allowing the web application to display real-time greenhouse monitoring and production statistics.</p>
