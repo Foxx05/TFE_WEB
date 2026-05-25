@@ -50,7 +50,7 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right">/03</p>
           <p className="section--title__app right">About the digital&nbsp;tween</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/carousel.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/carousel@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/tween.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/tween@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I read the documentation and watched a video on YouTube to&nbsp;learn</p>
             <p className="p--basic">Regarding the Scikit-learn documentation, I decided to use the KNN method. I watched a video on YouTube to better understand the logic behind this&nbsp;method.</p>
@@ -64,7 +64,7 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right">/04</p>
           <p className="section--title__app right">About the&nbsp;electronic</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/carousel.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/carousel@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/elec.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/elec@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I'm really not an electronical engineer...</p>
             <p className="p--basic">I had to learn quite a bit about the electronics side of things during this project. I mainly relied on the documentation for the various electronic&nbsp;components.</p>
@@ -80,7 +80,7 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right">/05</p>
           <p className="section--title__app right">A video&nbsp;section</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/videoSection.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/videoSection@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">To save time, I looked at what had been done elsewhere for inspiration. That’s how I found this animation, which was quite&nbsp;helpful.</p>
             <p className="p--basic">Since I couldn’t adapt it to the React project, I asked ChatGPT for some ideas. I also used AI to make the loading process as smooth as possible (there were a lot of frames to&nbsp;load).</p>
