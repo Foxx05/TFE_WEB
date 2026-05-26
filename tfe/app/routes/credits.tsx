@@ -49,8 +49,8 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/03</p>
-          <p className="section--title__app right">About the digital&nbsp;tween</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/tween.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/tween@2x.webp 2x`} alt="View showing the model. In the foreground, you can see the Raspberry Pi."/>
+          <p className="section--title__app right">About the digital&nbsp;twin</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/twin.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/twin@2x.webp 2x`} alt="View showing the model. In the foreground, you can see the Raspberry Pi."/>
           <div className="div--right">
             <p className="p--basic__modif">I read the documentation and watched a video on YouTube to&nbsp;learn</p>
             <p className="p--basic">Regarding the Scikit-learn documentation, I decided to use the KNN method. I watched a video on YouTube to better understand the logic behind this&nbsp;method.</p>

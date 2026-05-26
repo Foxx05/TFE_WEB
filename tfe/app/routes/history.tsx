@@ -61,7 +61,7 @@ export default function Home() {
             <p className="p--basic__number left">/04</p>
             <p className="section--title__app left">A first website design</p>
             <p className="p--basic__modif">The first thing I did in this project was thinking about the website’s&nbsp;design.</p>
-            <p className="p--basic">I started by making some wireframes on Figma. I did a lot of variation between every&nbsp;test.</p>
+            <p className="p--basic">I started by making some wireframes on Figma. I did a lot of variation betwin every&nbsp;test.</p>
           </div>
         </section>
       </Reveal>
