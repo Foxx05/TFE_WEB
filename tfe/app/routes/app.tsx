@@ -64,10 +64,10 @@ export default function Home() {
       </Reveal>
 
       <div className="div--gradient">
-        <p className="p--basic__modif">Any question or request  ?</p>
-        <p className="p--appToContact">Feel free to reach out, we are here to help you, anywhere, anytime.</p>
+        <p className="p--basic__modif">Looking to improve your strawberry production ?</p>
+        <p className="p--appToContact">It’s always a pleasure to hear about your needs and explore the personalized solutions BerryCam can provide to help monitor crops, track greenhouse conditions, and optimize harvest quality.</p>
         <NavLink to="/projets/tfe_web/contact" className="btn--contact">
-          Contact us
+          Get in touch
         </NavLink>
       </div>
 
