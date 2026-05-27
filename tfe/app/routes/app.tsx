@@ -65,7 +65,7 @@ export default function Home() {
 
       <div className="div--gradient">
         <p className="p--basic__modif">Looking to improve your strawberry production ?</p>
-        <p className="p--appToContact">It’s always a pleasure to hear about your needs and explore the personalized solutions BerryCam can provide to help monitor crops, track greenhouse conditions, and optimize harvest quality.</p>
+        <p className="p--appToContact">It’s always a pleasure to hear about your needs and explore the personalized solutions BerryCam can provide to help monitor crops, track greenhouse conditions, and optimize harvest&nbsp;quality.</p>
         <NavLink to="/projets/tfe_web/contact" className="btn--contact">
           Get in touch
         </NavLink>
