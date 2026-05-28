@@ -1164,11 +1164,7 @@ span{
         width: 100%;
     }
 
-    .p--copy{
-        margin-top: 450px;
-    }
-
-    .p--foot{
+    .p--foot, .p--copy{
         margin-top: 450px;
     }
 
