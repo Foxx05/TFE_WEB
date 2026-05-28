@@ -21,7 +21,7 @@ export default function Footer() {
           Credits
         </NavLink>
       </div>
-      <p className="p--copy">©BerryCam - 2026</p>
+      <p className="p--copy">©BerryCam — 2026</p>
       <p className="p--foot">BerryCam</p>
     </footer>
   );
