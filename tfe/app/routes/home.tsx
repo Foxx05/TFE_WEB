@@ -37,7 +37,7 @@ export default function Home() {
         <section className="section--gh2 gridcol">
           <p className="section--title">...to an automised one</p>
           <p className="p--basic__modif gridcol--35">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
-          <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/autoGH@2x.webp 2x`} alt="Image showing a 3D view of the product. The strawberry plants are placed in stacked trays. The strawberries are filmed by cameras (positioned perpendicular to the strawberry beds)" />
+          <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/autoGH@2x.webp 2x`} alt="Image showing a 3D view of the product. The strawberry plants are placed in stacked plants. The strawberries are filmed by cameras (positioned perpendicular to the strawberry beds)" />
           <p className="p--basic gridcol--35">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
         </section>
       </Reveal>
@@ -48,8 +48,8 @@ export default function Home() {
 
       <section className="section--presProd">
         <p className="p--basic p--presProd__left">Here’s what a greenhouse equipped with the BerryCam ripening monitoring system looks like. Cameras monitor the plants from the side. The length of the rail can be adjusted to suit your&nbsp;needs.</p>
-        <p className="p--basic p--presProd__right">In this installation example, a camera monitors three trays of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more trays if the camera were positioned further&nbsp;back.</p>
-        <p className="p--basic p--presProd__left">Once the photo is taken, it is analyzed by a third-party program. This analysis (of the color) determines whether the strawberry is ready for harvest or&nbsp;not.</p>
+        <p className="p--basic p--presProd__right">In this installation example, a camera monitors three plants of strawberries. The camera is positioned 35 cm (about 14 inches) from the trough. It’s entirely possible that it could monitor more plants if the cameras were positioned further&nbsp;back.</p>
+        <p className="p--basic p--presProd__left">Once the picture is taken, it is analyzed by a third-party program. This analysis (of the color) determines whether the strawberry is ready for harvest or&nbsp;not.</p>
       </section>
 
       <section className="section--full section--app gridcol">
