@@ -64,7 +64,7 @@ export default function Home() {
       </Reveal>
 
       <div className="div--gradient">
-        <p className="p--basic__modif">Looking to improve your strawberry&nbsp;production ?</p>
+        <p className="section--title__app">Looking to improve your strawberry&nbsp;production ?</p>
         <p className="p--appToContact">It’s always a pleasure to hear about your needs and explore personalized solutions with&nbsp;BerryCam.</p>
         <NavLink to="/projets/tfe_web/contact" className="btn--contact">
           Get in touch
