@@ -35,7 +35,7 @@ export default function Home() {
 
       <Reveal>
         <section className="section--gh2 gridcol">
-          <p className="section--title">...to an automised one</p>
+          <p className="section--title">...to an automated one</p>
           <p className="p--basic__modif gridcol--35">Our system allows the farmer to monitor the progress of the crops without having to move&nbsp;around.</p>
           <img className="img" src={`${import.meta.env.BASE_URL}images/product/autoGH.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/autoGH@2x.webp 2x`} alt="Image showing a 3D view of the product. The strawberry plants are placed in stacked plants. The strawberries are filmed by cameras (positioned perpendicular to the strawberry beds)" />
           <p className="p--basic gridcol--35">Sensors transmit data directly to the farmer's phone. You receive all the information you need (temperature, humidity, etc.) in real time. This saves you time in terms of travel. You only need to leave your home if you are not satisfied with a particular&nbsp;parameter.</p>
