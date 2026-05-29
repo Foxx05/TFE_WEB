@@ -92,6 +92,20 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/06</p>
+          <p className="section--title__app right">About the&nbsp;app</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/videoSection.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/videoSection@2x.webp 2x`} alt="Screenshot of the 3D greenhouse model that appears in the animated section."/>
+          <div className="div--right">
+            <p className="p--basic__modif">As for the app itself, I didn't rely on any external resources. I just browsed Dribbble looking for&nbsp;inspiration.</p>
+            <p className="p--basic">However, when it came to account management, that’s where things got complicated. In fact, I had never done that before. So I had to rely on YouTube and AI to achieve the current&nbsp;result.</p>
+            <p className="p--basic"><a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">Link to Dribbble</a></p>
+            <p className="p--basic"><a href="https://www.youtube.com/watch?v=JAgd_L3GhI0" target="_blank" rel="noopener noreferrer">Link to watch the same video</a></p>
+          </div>
+        </section>
+      </Reveal>
+
+      <Reveal className="reveal--left">
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/07</p>
           <p className="section--title__app right">A few&nbsp;thanks</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of strawberries (ripening). The photo was taken at “La Fraiserie de Franière”."/>
           <div className="div--right">
