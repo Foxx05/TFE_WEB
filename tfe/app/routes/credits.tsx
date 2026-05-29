@@ -93,7 +93,7 @@ export default function Home() {
         <section className="section--page gridcol">
           <p className="p--basic__number right">/06</p>
           <p className="section--title__app right">About the&nbsp;app</p>
-          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/product/phone.png`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/phone@2x.png 2x`} alt="Screenshot of the 3D greenhouse model that appears in the animated section."/>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/product/phone.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/phone@2x.webp 2x`} alt="Screenshot of the 3D greenhouse model that appears in the animated section."/>
           <div className="div--right">
             <p className="p--basic__modif">As for the app itself, I didn't rely on any external resources. I just browsed Dribbble looking for&nbsp;inspiration.</p>
             <p className="p--basic">However, when it came to account management, that’s where things got complicated. In fact, I had never done that before. So I had to rely on YouTube and AI (ChatGPT) to achieve the current&nbsp;result.</p>
