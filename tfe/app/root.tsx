@@ -28,8 +28,8 @@ export default function Root() {
         <meta property="og:title" content="Berrycam" />
         <meta property="og:description" content="My final project in my senior year of the Web and Transmedia program at HEAJ" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://theocolpaert.be/projets/tfe_web/index.html" />
-        <meta property="og:image" content="https://theocolpaert.be/projets/tfe_web/images/product/imgHeadProduct.png" />
+        <meta property="og:url" content="https://theocolpaert.be/projets/tfe_web/" />
+        <meta property="og:image" content="https://theocolpaert.be/projets/tfe_web/images/product/imgHeadProduct.webp" />
         <meta property="og:image:width" content="1800" />
         <meta property="og:image:height" content="945" />
 
