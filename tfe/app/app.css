@@ -1178,7 +1178,7 @@ span{
     }
 
     footer.gridcol{
-        padding: clamp(11.25rem, -9.5192rem + 23.0769vw, 15rem);
+        padding: 0 clamp(11.25rem, -9.5192rem + 23.0769vw, 15rem);
     }
 }
 
