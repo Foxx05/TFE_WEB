@@ -1176,6 +1176,10 @@ span{
         column-gap: 40px;
         padding: 0 240px;
     }
+
+    footer.gridcol{
+        padding: clamp(11.25rem, -9.5192rem + 23.0769vw, 15rem);
+    }
 }
 
 @media (min-width: 1921px){
