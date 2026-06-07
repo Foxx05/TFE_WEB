@@ -22,7 +22,7 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/01</p>
-          <p className="section--title__app right"> Some 3D&nbsp;assets</p>
+          <p className="section--title__app right">Some 3D&nbsp;assets</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/renders.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/renders@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
           <div className="div--right">
             <p className="p--basic__modif">I used two 3D assets in my greenhouse scene: the blue plastic bins and the wheelbarrow.</p>
@@ -36,6 +36,19 @@ export default function Home() {
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
           <p className="p--basic__number right">/02</p>
+          <p className="section--title__app right">About the images</p>
+          <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/images.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/images@2x.webp 2x`} alt="Close-up of an open notebook, revealing a page labeled “TFE” (the French equivalent of a final project). A Bic pen is also visible. The whole scene is set on a wooden table."/>
+          <div className="div--right">
+            <p className="p--basic__modif">Magnific (formerly Freepik) or me</p>
+            <p className="p--basic">All images on this site are either from “Magnific” (a free online image bank) or were taken by me. I designed the logo and&nbsp;illustrations.</p>
+            <p className="p--basic"><a href="https://www.magnific.com/" target="_blank" rel="noopener noreferrer">Link to Magnific</a></p>
+          </div>
+        </section>
+      </Reveal>
+
+      <Reveal className="reveal--left">
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/03</p>
           <p className="section--title__app right">About the carousel&nbsp;animation</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/carousel.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/carousel@2x.webp 2x`} alt="View on two screens. The first (smaller) screen shows the carousel section. The second screen shows the code that displays that section."/>
           <div className="div--right">
@@ -48,7 +61,7 @@ export default function Home() {
 
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
-          <p className="p--basic__number right">/03</p>
+          <p className="p--basic__number right">/04</p>
           <p className="section--title__app right">About the digital&nbsp;twin</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/twin.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/twin@2x.webp 2x`} alt="View showing the model. In the foreground, you can see the Raspberry Pi."/>
           <div className="div--right">
@@ -62,7 +75,7 @@ export default function Home() {
 
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
-          <p className="p--basic__number right">/04</p>
+          <p className="p--basic__number right">/05</p>
           <p className="section--title__app right">About the&nbsp;electronic</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/elec.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/elec@2x.webp 2x`} alt="A close-up of the LCD screen displaying various data."/>
           <div className="div--right">
@@ -78,7 +91,7 @@ export default function Home() {
 
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
-          <p className="p--basic__number right">/05</p>
+          <p className="p--basic__number right">/06</p>
           <p className="section--title__app right">A video&nbsp;section</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/videoSection.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/videoSection@2x.webp 2x`} alt="Screenshot of the 3D greenhouse model that appears in the animated section."/>
           <div className="div--right">
@@ -91,7 +104,7 @@ export default function Home() {
 
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
-          <p className="p--basic__number right">/06</p>
+          <p className="p--basic__number right">/07</p>
           <p className="section--title__app right">About the&nbsp;app</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/product/phone.webp`} srcSet={`${import.meta.env.BASE_URL}/images/product/@2x/phone@2x.webp 2x`} alt="Screenshot of the 3D greenhouse model that appears in the animated section."/>
           <div className="div--right">
@@ -105,7 +118,7 @@ export default function Home() {
 
       <Reveal className="reveal--left">
         <section className="section--page gridcol">
-          <p className="p--basic__number right">/07</p>
+          <p className="p--basic__number right">/08</p>
           <p className="section--title__app right">A few&nbsp;thanks</p>
           <img className="img--right" src={`${import.meta.env.BASE_URL}/images/credit/thanks.webp`} srcSet={`${import.meta.env.BASE_URL}/images/credit/@2x/thanks@2x.webp 2x`} alt="Close-up of strawberries (ripening). The photo was taken at “La Fraiserie de Franière”."/>
           <div className="div--right">
