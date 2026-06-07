@@ -567,6 +567,10 @@ span{
     justify-self: center;
 }
 
+.btn--center{
+    justify-self: center;
+}
+
 .div--gradient{
     color: #d6d6d6;
     background: linear-gradient(180deg, #3A0D19 0%, #020001 50%, #3A0D19 100%);

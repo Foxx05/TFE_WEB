@@ -63,6 +63,20 @@ export default function Home() {
         </section>
       </Reveal>
 
+      <Reveal>
+        <section className="section--page gridcol">
+          <p className="p--basic__number right">/04</p>
+          <p className="section--title__app right">Want a&nbsp;demo ?</p>
+          <div className="div--right">
+            <p className="p--basic__modif">Want to check out the app? You've come to the right&nbsp;place.</p>
+            <p className="p--basic">In this demo, you’ll be put in charge of a farm. You’ll have access to data from the various greenhouses. You’ll be able to explore the app to familiarize yourself with your future&nbsp;environment.</p>
+            <NavLink to="https://theocolpaert.be/projets/tfe_appDemo/" target="_blank" rel="noopener noreferrer" className="btn--center btn--contact">
+              To the demo
+            </NavLink>
+          </div>
+        </section>
+      </Reveal>
+
       <div className="div--gradient">
         <p className="section--title__app">Looking to improve your strawberry&nbsp;production ?</p>
         <p className="p--appToContact">It’s always a pleasure to hear about your needs and explore personalized solutions with&nbsp;BerryCam.</p>
